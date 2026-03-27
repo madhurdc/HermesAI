@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hermes
+* source:	https://sketchfab.com/3d-models/hermes-f26ed6a07557495986727933126b8b8d
+* author:	leofinearts (https://sketchfab.com/leofinearts)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hermes" (https://sketchfab.com/3d-models/hermes-f26ed6a07557495986727933126b8b8d) by leofinearts (https://sketchfab.com/leofinearts) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
