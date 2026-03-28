@@ -53,7 +53,7 @@ const HermesModel = () => {
         object.traverse((node) => {
           if (node.isMesh && node.material) {
             node.material.metalness = 1;   // Maximum metal feel
-            node.material.roughness = 0.3; // Changed from 0.45 to 0.2 per request
+            node.material.roughness = 0.35; // Changed from 0.45 to 0.2 per request
           }
         });
 

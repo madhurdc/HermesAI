@@ -14,13 +14,23 @@ function App() {
           glowIntensity={0.2}
           saturation={0}
           hueShift={140}
-          twinkleIntensity={0.3}
+          twinkleIntensity={0.1}
           rotationSpeed={0.1}
           repulsionStrength={0.5}
           autoCenterRepulsion={0}
           starSpeed={0.5}
-          speed={1}
+          speed={0.5}
         />
+      </div>
+
+      {/* Background Text Layer (Behind Model) */}
+      <div className="absolute inset-0 z-[5] flex items-center justify-center pointer-events-none select-none">
+        <h1
+          className="text-white font-black opacity-50 w-[90%] text-center"
+          style={{ fontFamily: '"Monument Extended", sans-serif', fontSize: 'clamp(3rem, 15vw, 20rem)', lineHeight: 1 }}
+        >
+          HERMES
+        </h1>
       </div>
 
       {/* 3D Model Layer (Middle) */}
@@ -33,9 +43,9 @@ function App() {
         <nav className="w-full max-w-7xl flex justify-between items-center opacity-0 animate-fade-in pointer-events-auto">
           <div className="text-2xl font-black tracking-widest uppercase">Hermes AI</div>
           <div className="flex gap-6 text-sm font-semibold tracking-wider">
-            <button className="hover:text-amber-300 transition-colors uppercase">Features</button>
-            <button className="hover:text-amber-300 transition-colors uppercase">About</button>
-            <button className="hover:text-amber-300 transition-colors uppercase">Contact</button>
+            <button className="hover:text-amber-300 transition-colors uppercase">Interview Preparation</button>
+            <button className="hover:text-amber-300 transition-colors uppercase">Career Guidance</button>
+            <button className="hover:text-amber-300 transition-colors uppercase">Resume Review</button>
           </div>
         </nav>
 
