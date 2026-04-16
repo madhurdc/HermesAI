@@ -3,6 +3,8 @@ import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom'
 import Galaxy from './components/Galaxy';
 import Home from './pages/Home';
 import ResumeReview from './pages/ResumeReview';
+import CareerGuidance from './pages/CareerGuidance';
+import InterviewPrep from './pages/InterviewPrep';
 
 function App() {
   const navigate = useNavigate();
@@ -36,10 +38,16 @@ function App() {
             Hermes AI
           </Link>
           <div className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs sm:text-sm font-semibold tracking-wider">
-            <button className="text-white transition-colors duration-300 uppercase px-4 py-2 hover:text-[#D4AF37] border-none outline-none focus:outline-none">
+            <button 
+              onClick={() => navigate('/interview-prep')}
+              className="text-white transition-colors duration-300 uppercase px-4 py-2 hover:text-[#D4AF37] border-none outline-none focus:outline-none"
+            >
               Interview Preparation
             </button>
-            <button className="text-white transition-colors duration-300 uppercase px-4 py-2 hover:text-[#D4AF37] border-none outline-none focus:outline-none">
+            <button 
+              onClick={() => navigate('/career-guidance')}
+              className="text-white transition-colors duration-300 uppercase px-4 py-2 hover:text-[#D4AF37] border-none outline-none focus:outline-none"
+            >
               Career Guidance
             </button>
             <button 
@@ -54,6 +62,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume-review" element={<ResumeReview />} />
+          <Route path="/interview-prep" element={<InterviewPrep />} />
+          <Route path="/career-guidance" element={<CareerGuidance />} />
         </Routes>
       </div>
     </div>
