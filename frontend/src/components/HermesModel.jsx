@@ -112,8 +112,9 @@ const HermesModel = () => {
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.4);
     scene.add(ambientLight);
 
-    // Animation loop
+    // Animation loop — shared counter increments at 0.05/frame (same as DottedSurface)
     let animationFrameId;
+    let floatCount = 0;
     const animate = () => {
       animationFrameId = requestAnimationFrame(animate);
 
@@ -130,8 +131,9 @@ const HermesModel = () => {
         pivot.rotation.y += (xNorm * maxY - pivot.rotation.y) * 0.08;
         pivot.rotation.x += (yNorm * maxX - pivot.rotation.x) * 0.08;
 
-        // Subtle floating motion
-        pivot.position.y = Math.sin(Date.now() * 0.001) * 0.03;
+        // Floating motion — synced to DottedSurface (0.05/frame)
+        pivot.position.y = Math.sin(floatCount * 0.3) * 0.03;
+        floatCount += 0.05;
       }
 
       renderer.render(scene, camera);
