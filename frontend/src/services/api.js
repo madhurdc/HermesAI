@@ -136,6 +136,10 @@ export async function careerChat(sessionId, message, conversationHistory) {
   });
 }
 
+export async function getCareerQuestions() {
+  return apiRequest("/career/questions");
+}
+
 export async function getCareerRecommendations(sessionId, conversationHistory) {
   return apiRequest("/career/recommend", {
     method: "POST",

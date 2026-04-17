@@ -186,10 +186,19 @@ export const getReportPDF = async (req, res) => {
       return res.status(400).json({ error: "Report not yet generated" });
     }
 
+    const { data: answers } = await supabase
+      .from("interview_answers")
+      .select("*")
+      .eq("session_id", sessionId)
+      .order("question_index", { ascending: true });
+
+    const qaPairs = answers ? answers.map(a => ({ question: a.question, answer: a.answer })) : [];
+
     const pdfBuffer = await generateInterviewReportPDF(
       session.report,
       session.domain,
-      session.difficulty
+      session.difficulty,
+      qaPairs
     );
 
     res.setHeader("Content-Type", "application/pdf");
