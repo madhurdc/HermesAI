@@ -1,9 +1,11 @@
 import React, { useState, useRef } from 'react';
+import { analyzeResume, getResumeReportPDF } from '../services/api';
 
 const ResumeReview = () => {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
+  const [reviewId, setReviewId] = useState(null);
   const [error, setError] = useState(null);
   const fileInputRef = useRef(null);
 
@@ -35,48 +37,67 @@ const ResumeReview = () => {
     }
   };
 
-  const handleAnalyze = () => {
+  const handleAnalyze = async () => {
     if (!file) return;
     
     setLoading(true);
     setError(null);
 
-    // Simulate analysis delay
-    setTimeout(() => {
-      setResult({
-        ats_score: 78,
-        missing_keywords: ["React", "Node.js", "SQL"],
-        strengths: ["Good project structure", "Clear education section"],
-        weaknesses: ["Lack of quantified achievements"],
-        suggestions: [
-          "Add metrics (e.g., improved performance by 30%)",
-          "Include more technical keywords"
-        ]
-      });
-
+    try {
+      const data = await analyzeResume(file);
+      setReviewId(data.review_id);
+      setResult(data);
+    } catch (err) {
+      setError(err.message || 'Failed to analyze resume');
+    } finally {
       setLoading(false);
-    }, 2000);
+    }
   };
 
-  const downloadReport = () => {
+  const downloadReport = async () => {
+    if (!reviewId) {
+      // Fallback: download as text if no review ID
+      downloadAsText();
+      return;
+    }
+
+    try {
+      const blob = await getResumeReportPDF(reviewId);
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'hermes-resume-report.pdf';
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      setError(err.message || 'Failed to download PDF');
+    }
+  };
+
+  const downloadAsText = () => {
     if (!result) return;
     
     const text = `
-ATS Score: ${result.ats_score}
+HERMES AI — Resume Analysis Report
+====================================
+
+ATS Score: ${result.ats_score}/100
+
+${result.summary || ''}
 
 Missing Keywords:
-${result.missing_keywords.join("\n")}
+${(result.missing_keywords || []).join("\n")}
 
 Strengths:
-${result.strengths.join("\n")}
+${(result.strengths || []).join("\n")}
 
 Weaknesses:
-${result.weaknesses.join("\n")}
+${(result.weaknesses || []).join("\n")}
 
 Suggestions:
-${result.suggestions.join("\n")}
+${(result.suggestions || []).join("\n")}
 `;
-
+  
     const blob = new Blob([text], { type: "text/plain" });
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
@@ -88,6 +109,7 @@ ${result.suggestions.join("\n")}
   const handleReset = () => {
     setFile(null);
     setResult(null);
+    setReviewId(null);
     setError(null);
     if (fileInputRef.current) fileInputRef.current.value = '';
   };
@@ -100,6 +122,14 @@ ${result.suggestions.join("\n")}
         <h2 className="text-3xl font-black uppercase tracking-tighter mb-8 text-center text-white">
           Resume Reviewer
         </h2>
+
+        {/* Error Display */}
+        {error && (
+          <div className="mb-6 p-4 bg-red-500/20 border border-red-500/30 rounded-xl text-red-200 text-sm text-center animate-fade-in">
+            {error}
+            <button onClick={() => setError(null)} className="ml-3 text-red-300 hover:text-white">&times;</button>
+          </div>
+        )}
 
         {!result ? (
           <div className="space-y-6">
@@ -138,12 +168,6 @@ ${result.suggestions.join("\n")}
               )}
             </div>
 
-            {error && (
-              <div className="p-4 bg-red-500/20 border border-red-500/30 rounded-xl text-red-200 text-center">
-                {error}
-              </div>
-            )}
-
             {/* Analyze Button / Loading State */}
             <div className="flex justify-center mt-6">
               <button 
@@ -158,7 +182,7 @@ ${result.suggestions.join("\n")}
                 {loading ? (
                   <div className="flex items-center gap-3">
                     <div className="w-5 h-5 border-4 border-white/20 border-t-white rounded-full animate-spin"></div>
-                    <span>Analyzing your resume...</span>
+                    <span>Analyzing with AI...</span>
                   </div>
                 ) : (
                   "Review Resume"
@@ -179,51 +203,74 @@ ${result.suggestions.join("\n")}
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h3 className="text-2xl font-bold text-white mb-2">Analysis Complete</h3>
-                <p className="text-white/70">Here is the detailed feedback for your resume.</p>
+                <p className="text-white/70">{result.summary || 'Here is the detailed feedback for your resume.'}</p>
               </div>
             </div>
+
+            {/* Score Breakdown */}
+            {result.score_breakdown && (
+              <div className="bg-white/5 rounded-xl p-5 border border-white/10">
+                <h4 className="text-sm font-black text-[#D4AF37] uppercase tracking-widest mb-4">Score Breakdown</h4>
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                  {Object.entries(result.score_breakdown).map(([key, val]) => (
+                    <div key={key} className="text-center">
+                      <div className="text-2xl font-black text-white">{val}</div>
+                      <div className="text-xs text-white/50 uppercase">{key}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="grid md:grid-cols-2 gap-6 max-h-[50vh] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#D4AF37]/50">
               
               {/* Missing Keywords */}
-              <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
-                <h4 className="text-lg font-bold text-white mb-3">Missing Keywords</h4>
-                <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
-                  {result.missing_keywords.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+              {result.missing_keywords?.length > 0 && (
+                <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
+                  <h4 className="text-lg font-bold text-white mb-3">Missing Keywords</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {result.missing_keywords.map((item, i) => (
+                      <span key={i} className="px-3 py-1 bg-red-500/20 border border-red-500/30 rounded-full text-sm text-red-200">{item}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Strengths */}
-              <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
-                <h4 className="text-lg font-bold text-white mb-3">Strengths</h4>
-                <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
-                  {result.strengths.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+              {result.strengths?.length > 0 && (
+                <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
+                  <h4 className="text-lg font-bold text-white mb-3">Strengths</h4>
+                  <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
+                    {result.strengths.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Weaknesses */}
-              <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
-                <h4 className="text-lg font-bold text-white mb-3">Weaknesses</h4>
-                <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
-                  {result.weaknesses.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+              {result.weaknesses?.length > 0 && (
+                <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
+                  <h4 className="text-lg font-bold text-white mb-3">Weaknesses</h4>
+                  <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
+                    {result.weaknesses.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
               {/* Suggestions */}
-              <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
-                <h4 className="text-lg font-bold text-white mb-3">Suggestions</h4>
-                <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
-                  {result.suggestions.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+              {result.suggestions?.length > 0 && (
+                <div className="bg-white/5 rounded-xl p-5 border border-white/10 transition-colors">
+                  <h4 className="text-lg font-bold text-white mb-3">Suggestions</h4>
+                  <ul className="list-disc ml-5 space-y-1 text-white/80 text-sm">
+                    {result.suggestions.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
             </div>
 
@@ -233,7 +280,7 @@ ${result.suggestions.join("\n")}
                 onClick={downloadReport}
                 className="px-6 py-3 bg-white/5 border border-white/50 text-white font-bold rounded-xl hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300 uppercase tracking-wider shadow-lg flex-1 sm:flex-none"
               >
-                Download Report
+                Download PDF Report
               </button>
               <button 
                 onClick={handleReset}

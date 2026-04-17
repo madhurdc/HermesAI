@@ -1,15 +1,24 @@
 import React from 'react';
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import Galaxy from './components/Galaxy';
+import ProtectedRoute from './components/ProtectedRoute';
 import Home from './pages/Home';
+import Auth from './pages/Auth';
 import ResumeReview from './pages/ResumeReview';
 import CareerGuidance from './pages/CareerGuidance';
 import InterviewPrep from './pages/InterviewPrep';
+import { useAuth } from './context/AuthContext';
 
 function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const isHome = location.pathname === '/';
+  const { user, signOut } = useAuth();
+
+  const handleSignOut = async () => {
+    await signOut();
+    navigate('/');
+  };
 
   return (
     <div className="relative w-full h-[100dvh] overflow-hidden bg-black font-sans text-white">
@@ -37,7 +46,7 @@ function App() {
           <Link to="/" className="text-xl md:text-2xl font-black tracking-widest uppercase hover:text-[#D4AF37] transition-colors duration-300 text-center md:text-left">
             Hermes AI
           </Link>
-          <div className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs sm:text-sm font-semibold tracking-wider">
+          <div className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs sm:text-sm font-semibold tracking-wider items-center">
             <button 
               onClick={() => navigate('/interview-prep')}
               className="text-white transition-colors duration-300 uppercase px-4 py-2 hover:text-[#D4AF37] border-none outline-none focus:outline-none"
@@ -56,18 +65,47 @@ function App() {
             >
               Resume Review
             </button>
+
+            {/* Auth button */}
+            {user ? (
+              <div className="flex items-center gap-3 ml-2">
+                <div className="w-8 h-8 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] text-xs font-black uppercase">
+                  {user.email?.charAt(0)}
+                </div>
+                <button
+                  onClick={handleSignOut}
+                  className="text-white/50 transition-colors duration-300 uppercase px-3 py-2 hover:text-red-400 text-xs border-none outline-none focus:outline-none"
+                >
+                  Sign Out
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => navigate('/auth')}
+                className="ml-2 px-5 py-2 bg-[#D4AF37]/10 border border-[#D4AF37]/50 text-[#D4AF37] font-bold uppercase tracking-widest rounded-full hover:bg-[#D4AF37]/20 hover:border-[#D4AF37] transition-all duration-300 text-xs"
+              >
+                Sign In
+              </button>
+            )}
           </div>
         </nav>
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/resume-review" element={<ResumeReview />} />
-          <Route path="/interview-prep" element={<InterviewPrep />} />
-          <Route path="/career-guidance" element={<CareerGuidance />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/resume-review" element={
+            <ProtectedRoute><ResumeReview /></ProtectedRoute>
+          } />
+          <Route path="/interview-prep" element={
+            <ProtectedRoute><InterviewPrep /></ProtectedRoute>
+          } />
+          <Route path="/career-guidance" element={
+            <ProtectedRoute><CareerGuidance /></ProtectedRoute>
+          } />
         </Routes>
       </div>
     </div>
   );
 }
 
-export default App;
+export default App;
