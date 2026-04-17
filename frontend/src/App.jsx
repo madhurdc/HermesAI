@@ -13,8 +13,8 @@ function SplashScreen({ onDone }) {
 
   useEffect(() => {
     // Fade out splash after taglines finish
-    const t1 = setTimeout(() => setFading(true), 3700);
-    const t2 = setTimeout(() => onDone(), 4500);
+    const t1 = setTimeout(() => setFading(true), 1700); // 1.7 seconds
+    const t2 = setTimeout(() => onDone(), 2500); // 2.5 seconds
     return () => { clearTimeout(t1); clearTimeout(t2); };
   }, [onDone]);
 
@@ -59,6 +59,13 @@ function App() {
   const navigate = useNavigate();
   const location = useLocation();
   const isHome = location.pathname === '/';
+
+  // Trigger loading screen whenever navigating back to Home
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setLoading(true);
+    }
+  }, [location.pathname]);
 
   return (
     <>

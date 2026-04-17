@@ -9,7 +9,7 @@ export function CoreSpinLoader() {
     const interval = setInterval(() => {
       i = (i + 1) % states.length;
       setLoadingText(states[i]);
-    }, 2000);
+    }, 1250);
     return () => clearInterval(interval);
   }, []);
 
