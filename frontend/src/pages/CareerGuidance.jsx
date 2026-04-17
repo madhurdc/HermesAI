@@ -12,10 +12,12 @@ const CareerGuidance = () => {
   const [sessionId, setSessionId] = useState(null);
   const [error, setError] = useState(null);
   
-  const chatEndRef = useRef(null);
+  const chatContainerRef = useRef(null);
 
   const scrollToBottom = () => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTo({ top: chatContainerRef.current.scrollHeight, behavior: 'smooth' });
+    }
   };
 
   useEffect(() => {
@@ -75,10 +77,10 @@ const CareerGuidance = () => {
 
   return (
     <div className="flex flex-col items-center justify-start min-h-[80vh] w-full animate-fade-in pointer-events-auto mt-4 mb-20 pb-10">
-      {/* Main Card */}
-      <div className="w-full sm:w-full md:max-w-2xl lg:max-w-4xl p-6 md:p-8 rounded-2xl shadow-xl bg-white/10 backdrop-blur-lg border border-white/20 transition-all duration-500">
+      {/* Main Card (Matching ResumeReview exactly) */}
+      <div className="w-full sm:w-full md:max-w-2xl lg:max-w-4xl p-6 md:p-8 rounded-2xl shadow-xl bg-white/10 backdrop-blur-lg border border-white/20 transition-all duration-500 h-[600px] max-h-[75vh] flex flex-col">
         
-        <h2 className="text-3xl font-black uppercase tracking-tighter mb-8 text-center text-white">
+        <h2 className="text-3xl font-black uppercase tracking-tighter mb-8 text-center text-white shrink-0">
           Career Guidance Advisor
         </h2>
 
@@ -91,9 +93,9 @@ const CareerGuidance = () => {
         )}
 
         {!showResults ? (
-          <div className="flex flex-col h-[500px]">
+          <div className="flex-1 flex flex-col min-h-0">
             {/* Chat Area */}
-            <div className="flex-1 overflow-y-auto mb-6 pr-4 space-y-6 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
+            <div ref={chatContainerRef} className="flex-1 min-h-0 overflow-y-auto mb-6 pr-4 space-y-6 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
               {messages.map((msg, index) => (
                 <div 
                   key={index} 
@@ -119,7 +121,7 @@ const CareerGuidance = () => {
                   </div>
                 </div>
               )}
-              <div ref={chatEndRef} />
+              )}
             </div>
 
             {/* Input Area */}
@@ -154,7 +156,7 @@ const CareerGuidance = () => {
           </div>
         ) : (
           /* Results State */
-          <div className="space-y-8 animate-fade-in max-h-[60vh] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#D4AF37]/50">
+          <div className="flex-1 min-h-0 space-y-8 animate-fade-in overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-[#D4AF37]/50">
             <div className="flex items-center justify-between border-b border-white/10 pb-6 mb-6">
               <div>
                 <h3 className="text-xl font-bold text-white uppercase tracking-wider">Analysis Complete</h3>

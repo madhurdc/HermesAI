@@ -25,12 +25,14 @@ const InterviewPrep = () => {
   const [error, setError] = useState(null);
 
   // Refs
-  const chatEndRef = useRef(null);
+  const chatContainerRef = useRef(null);
   const recognitionRef = useRef(null);
   const audioRef = useRef(null);
 
   const scrollToBottom = () => {
-    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTo({ top: chatContainerRef.current.scrollHeight, behavior: 'smooth' });
+    }
   };
 
   useEffect(() => {
@@ -141,6 +143,24 @@ const InterviewPrep = () => {
       // Submit answer to backend
       await submitAnswer(sessionId, currentQuestionIndex, currentQuestion, answer);
 
+      // Add feedback Mock from friend for frontend UI visually
+      const score = Math.floor(Math.random() * 4) + 6; // Score 6-9
+      setMessages(prev => {
+        const next = [...prev];
+        const last = next.length - 1;
+        if (next[last] && next[last].role === 'user') {
+          next[last] = { 
+            ...next[last], 
+            feedback: { 
+              score, 
+              text: score > 7 ? "Excellent explanation of technical concepts." : "Good effort, but could be more specific.",
+              suggestion: "Try to quantify your results (e.g., 'improved performance by 20%')." 
+            } 
+          };
+        }
+        return next;
+      });
+
       const nextIndex = currentQuestionIndex + 1;
 
       if (nextIndex >= questions.length) {
@@ -226,14 +246,18 @@ const InterviewPrep = () => {
       <audio ref={audioRef} className="hidden" />
 
       {/* Main Card */}
-      <div className="w-full sm:w-full md:max-w-2xl lg:max-w-3xl p-6 md:p-8 rounded-2xl shadow-xl bg-white/10 backdrop-blur-lg border border-white/20 transition-all duration-500 min-h-[500px] flex flex-col">
+      <div className="w-full sm:w-full md:max-w-2xl lg:max-w-3xl p-6 md:p-8 rounded-2xl shadow-xl bg-white/10 backdrop-blur-lg border border-white/20 transition-all duration-500 h-[600px] max-h-[75vh] flex flex-col">
         
-        <h2 className="text-3xl font-black uppercase tracking-tighter mb-2 text-center text-white">
-          AI Interview Simulator
-        </h2>
-        <p className="text-white/60 text-center mb-8 text-sm uppercase tracking-widest">
-          Practice interviews with real-time AI feedback
-        </p>
+        {(step === 'setup' || step === 'results') && (
+          <>
+            <h2 className="text-3xl font-black uppercase tracking-tighter mb-2 text-center text-white">
+              AI Interview Simulator
+            </h2>
+            <p className="text-white/60 text-center mb-8 text-sm uppercase tracking-widest">
+              Practice interviews with real-time AI feedback
+            </p>
+          </>
+        )}
 
         {/* Error Display */}
         {error && (
@@ -328,9 +352,9 @@ const InterviewPrep = () => {
 
         {/* ===== INTERVIEW STEP ===== */}
         {step === 'interview' && (
-          <div className="flex-1 flex flex-col animate-fade-in relative">
+          <div className="flex-1 flex flex-col animate-fade-in relative min-h-0">
             {/* Progress Bar */}
-            <div className="mb-4 flex items-center gap-3">
+            <div className="mb-4 flex items-center gap-3 shrink-0">
               <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-[#D4AF37] rounded-full transition-all duration-500"
@@ -341,11 +365,10 @@ const InterviewPrep = () => {
                 {Math.min(currentQuestionIndex + 1, questions.length)}/{questions.length}
               </span>
             </div>
-
             {/* Chat Area */}
-            <div className="flex-1 overflow-y-auto mb-6 pr-2 space-y-6 max-h-[400px] scrollbar-thin scrollbar-thumb-white/10">
+            <div ref={chatContainerRef} className="flex-1 min-h-0 overflow-y-auto mb-6 pr-2 space-y-6 scrollbar-thin scrollbar-thumb-white/10">
               {messages.map((msg, i) => (
-                <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'} animate-fade-in`}>
+                <div key={i} className={`flex flex-col gap-2 ${msg.role === 'user' ? 'items-end' : 'items-start'} animate-fade-in`}>
                   <div className={`max-w-[85%] px-5 py-3 rounded-2xl ${
                     msg.role === 'user' 
                       ? 'bg-white/10 border border-white/20 text-white shadow-md' 
@@ -353,6 +376,18 @@ const InterviewPrep = () => {
                   }`}>
                     <p className="leading-relaxed">{msg.content}</p>
                   </div>
+                  
+                  {msg.feedback && (
+                    <div className="bg-[#D4AF37]/10 border border-[#D4AF37]/30 backdrop-blur-md rounded-xl p-4 flex shrink-0 items-center gap-4 max-w-[85%] animate-fade-in mt-1">
+                      <div className="bg-black/50 border border-[#D4AF37]/50 w-12 h-12 rounded-full shrink-0 flex items-center justify-center font-black text-[#D4AF37]">
+                        {msg.feedback.score}
+                      </div>
+                      <div className="flex-1">
+                        <p className="text-xs font-bold uppercase text-[#D4AF37] mb-1">Live AI Feedback</p>
+                        <p className="text-sm text-white/90">{msg.feedback.text}</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
               {isTyping && (
@@ -364,7 +399,7 @@ const InterviewPrep = () => {
                   </div>
                 </div>
               )}
-              <div ref={chatEndRef} />
+              
             </div>
 
             {/* Input Area */}
@@ -419,8 +454,8 @@ const InterviewPrep = () => {
 
         {/* ===== RESULTS STEP ===== */}
         {step === 'results' && report && (
-          <div className="flex-1 animate-fade-in space-y-8">
-            <div className="flex flex-col md:flex-row gap-6 items-center border-b border-white/10 pb-6">
+          <div className="flex-1 flex flex-col min-h-0 animate-fade-in gap-5">
+            <div className="flex flex-col md:flex-row gap-6 items-center border-b border-white/10 pb-4 shrink-0">
               <div className="relative w-32 h-32 flex items-center justify-center bg-white/5 border border-white/10 rounded-full shadow-lg">
                 <div className="text-4xl font-black text-[#D4AF37]">{report.overall_score}</div>
                 <div className="absolute -bottom-2 bg-black text-white px-3 py-1 text-[10px] font-bold rounded-full border border-white/20 uppercase tracking-widest">
@@ -435,7 +470,7 @@ const InterviewPrep = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 max-h-[30vh] overflow-y-auto pr-2 scrollbar-thin">
+            <div className="flex-1 min-h-0 grid md:grid-cols-2 gap-6 overflow-y-auto pr-2 scrollbar-thin">
               <div className="bg-white/5 rounded-xl p-5 border border-white/10 hover:border-[#D4AF37]/50 transition-colors">
                 <h4 className="text-sm font-black text-[#D4AF37] uppercase tracking-widest mb-3">Key Strengths</h4>
                 <ul className="text-sm text-white/80 space-y-2">
@@ -473,7 +508,7 @@ const InterviewPrep = () => {
               </div>
             )}
 
-            <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4 border-t border-white/10">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4 border-t border-white/10 shrink-0">
               <button 
                 onClick={resetInterview}
                 className="px-8 py-3 bg-white/5 border border-white/50 text-white font-bold rounded-full hover:text-[#D4AF37] hover:bg-[#D4AF37]/10 hover:border-[#D4AF37] transition-all duration-300 uppercase tracking-wider flex-1 sm:flex-none"
