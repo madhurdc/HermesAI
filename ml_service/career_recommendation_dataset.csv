@@ -1,0 +1,1201 @@
+Age,Education,Skills,Interests,Recommended_Career
+26,Master's,social media copywriting content writing,writing media creativity,Content Strategist
+33,Bachelor's,transformers python nltk,linguistics artificial intelligence research,NLP Engineer
+40,Master's,feature engineering machine learning tensorflow deep learning,artificial intelligence software engineering automation,Machine Learning Engineer
+18,Bachelor's,python pandas tableau business intelligence,data science analytics finance,Data Analyst
+36,Bachelor's,deep learning sql numpy python pandas,analytics data science technology artificial intelligence,Data Scientist
+26,Master's,project planning jira leadership,management team collaboration business leadership,Project Manager
+37,Bachelor's,rest api docker scikit-learn react sql,web development technology,Full Stack Developer
+39,Master's,python cloud platforms data warehousing airflow spark,data engineering big data infrastructure technology,Data Engineer
+37,Bachelor's,ansible kubernetes ci/cd,infrastructure automation technology,DevOps Engineer
+29,Master's,bert spacy transformers natural language processing pytorch,language artificial intelligence technology research,NLP Engineer
+33,Bachelor's,process modeling power bi excel documentation,business strategy,Business Analyst
+26,Master's,statistics data analysis machine learning python,analytics technology,Data Scientist
+21,PhD,scikit-learn sql data visualization python data analysis machine learning,technology analytics artificial intelligence research,Data Scientist
+27,Bachelor's,nltk spacy deep learning bert,artificial intelligence language technology,NLP Engineer
+26,Master's,webpack javascript css vue ui development,design technology,Frontend Developer
+33,PhD,python mathematics pytorch,research innovation,AI Researcher
+18,Master's,incident response vulnerability assessment firewalls,technology privacy cybersecurity problem solving,Cybersecurity Analyst
+25,Master's,branding content marketing social media marketing,creativity communications business marketing,Digital Marketer
+35,Bachelor's,power bi business intelligence excel agile stakeholder management,management business analytics,Business Analyst
+36,Bachelor's,data visualization sql reporting power bi,data science analytics business finance,Data Analyst
+32,PhD,git monitoring shell scripting terraform,technology system reliability,DevOps Engineer
+24,Master's,react native swift android rest api java,user experience design technology app development,Mobile Developer
+35,Master's,ui design user research wireframing,user experience psychology creativity technology,UI/UX Designer
+36,Bachelor's,html docker mongodb react git,technology entrepreneurship software engineering web development,Full Stack Developer
+31,Bachelor's,docker model deployment python tensorflow mlops,automation research technology software engineering,Machine Learning Engineer
+37,Bachelor's,webpack vue ui development responsive design,web development creative coding,Frontend Developer
+27,Bachelor's,figma wireframing ui design,technology psychology creativity design,UI/UX Designer
+23,Bachelor's,kubernetes azure terraform aws networking ci/cd,technology engineering,Cloud Engineer
+30,Bachelor's,rest api sql javascript docker react nodejs,entrepreneurship web development problem solving software engineering,Full Stack Developer
+38,Bachelor's,ci/cd networking docker,automation technology engineering cloud computing,Cloud Engineer
+29,Bachelor's,kubernetes terraform shell scripting monitoring git,automation technology,DevOps Engineer
+22,Bachelor's,deep learning pytorch nltk transformers,technology linguistics artificial intelligence,NLP Engineer
+24,PhD,figma adobe xd usability testing wireframing,user experience technology,UI/UX Designer
+37,Master's,email marketing marketing automation content marketing social media marketing seo,marketing business social media creativity,Digital Marketer
+40,Bachelor's,ansible shell scripting linux kubernetes,engineering system reliability automation technology,DevOps Engineer
+31,Bachelor's,terraform google cloud azure docker networking,technology infrastructure engineering cloud computing,Cloud Engineer
+39,PhD,excel power bi data visualization,analytics business decision making,Data Analyst
+29,Master's,model deployment scikit-learn machine learning,software engineering technology automation research,Machine Learning Engineer
+29,PhD,react mongodb html,software engineering web development technology,Full Stack Developer
+19,Bachelor's,android swift mobile ui java,user experience app development mobile technology,Mobile Developer
+24,Bachelor's,pcb design c++ assembly c microcontrollers,iot engineering electronics automation,Embedded Systems Engineer
+25,PhD,scikit-learn model deployment tensorflow deep learning,automation software engineering research,Machine Learning Engineer
+31,Bachelor's,leadership communication documentation,management leadership team collaboration business,Project Manager
+31,Bachelor's,react rest api mongodb,problem solving software engineering technology entrepreneurship,Full Stack Developer
+27,Bachelor's,convolutional neural networks tensorflow data augmentation,research photography computer vision technology,Computer Vision Engineer
+40,Bachelor's,react css mongodb sql docker,web development problem solving technology,Full Stack Developer
+22,Master's,html nodejs css,problem solving web development,Full Stack Developer
+37,Bachelor's,machine learning data visualization numpy sql deep learning,research technology data science,Data Scientist
+20,PhD,numpy data visualization data analysis,technology artificial intelligence research analytics,Data Scientist
+36,Bachelor's,react webpack typescript,design creative coding web development,Frontend Developer
+22,Master's,data analysis copywriting email marketing marketing automation social media marketing,communications creativity business,Digital Marketer
+30,Master's,project planning budgeting stakeholder management,business strategy team collaboration management,Project Manager
+22,Bachelor's,ci/cd terraform ansible,technology infrastructure system reliability,DevOps Engineer
+28,PhD,statistics deep learning research,research technology,AI Researcher
+39,Bachelor's,scrum budgeting risk management project planning,leadership business management team collaboration,Project Manager
+23,Master's,html sql docker react rest api css,web development technology software engineering entrepreneurship,Full Stack Developer
+21,Master's,python cloud platforms sql spark data warehousing etl,analytics technology data engineering big data,Data Engineer
+26,Master's,content planning analytics copywriting marketing,writing communications marketing,Content Strategist
+29,Bachelor's,sql etl airflow python cloud platforms kafka,analytics data engineering big data infrastructure,Data Engineer
+32,Bachelor's,aws ci/cd linux shell scripting,automation system reliability technology,DevOps Engineer
+35,PhD,nodejs react rest api css,problem solving software engineering,Full Stack Developer
+27,Bachelor's,research deep learning paper writing computer vision tensorflow,research technology artificial intelligence academia,AI Researcher
+19,Master's,docker nodejs spring boot java sql databases,problem solving engineering system architecture software development,Backend Developer
+23,Master's,docker mlops tensorflow model deployment,automation research technology software engineering,Machine Learning Engineer
+25,Bachelor's,pytorch paper writing python,academia artificial intelligence,AI Researcher
+23,Bachelor's,cloud platforms sql data pipelines etl,analytics technology infrastructure big data,Data Engineer
+38,Master's,scikit-learn data analysis deep learning numpy sql machine learning,technology analytics artificial intelligence data science,Data Scientist
+40,Bachelor's,pandas tableau excel,finance analytics decision making,Data Analyst
+24,PhD,linux terraform aws,automation infrastructure cloud computing,Cloud Engineer
+32,Bachelor's,firewalls incident response siem,digital forensics problem solving privacy,Cybersecurity Analyst
+25,Bachelor's,excel pandas sql statistics reporting python,finance business data science,Data Analyst
+25,Bachelor's,pytorch paper writing natural language processing statistics,technology innovation research,AI Researcher
+32,Master's,content writing editing social media analytics,media marketing communications creativity,Content Strategist
+20,Bachelor's,machine learning scikit-learn pandas numpy data visualization,artificial intelligence analytics technology,Data Scientist
+21,Bachelor's,docker feature engineering model deployment tensorflow python,artificial intelligence automation,Machine Learning Engineer
+29,Master's,reporting tableau data visualization statistics business intelligence,analytics finance business decision making,Data Analyst
+25,Bachelor's,docker java rest api databases python spring boot,software development technology problem solving,Backend Developer
+25,Master's,data visualization data analysis scikit-learn numpy,technology artificial intelligence,Data Scientist
+25,Master's,data augmentation deep learning pytorch opencv,research computer vision,Computer Vision Engineer
+20,Master's,huggingface python text classification,technology research,NLP Engineer
+25,Master's,content planning seo content writing analytics social media,marketing communications writing,Content Strategist
+37,PhD,databases java python,technology problem solving software development engineering,Backend Developer
+21,Master's,python huggingface spacy nltk pytorch,technology artificial intelligence,NLP Engineer
+22,Master's,python machine learning scikit-learn tensorflow,technology software engineering,Machine Learning Engineer
+19,Bachelor's,terraform aws azure kubernetes docker networking,technology engineering,Cloud Engineer
+24,Bachelor's,python airflow hadoop data warehousing,big data data engineering,Data Engineer
+23,Bachelor's,c c++ data visualization,automation engineering,Embedded Systems Engineer
+18,Bachelor's,paper writing pytorch mathematics research statistics deep learning,technology research academia,AI Researcher
+28,PhD,hardware programming pcb design embedded linux c microcontrollers,iot hardware,Embedded Systems Engineer
+21,PhD,android rest api mobile ui react native swift flutter,mobile technology design,Mobile Developer
+30,Master's,vulnerability assessment penetration testing firewalls network security cryptography ethical hacking,digital forensics problem solving,Cybersecurity Analyst
+38,Bachelor's,business intelligence excel python,finance decision making business,Data Analyst
+35,Bachelor's,css react ui development javascript,design user experience technology,Frontend Developer
+28,Master's,linux ci/cd ansible docker shell scripting aws,automation technology,DevOps Engineer
+40,Master's,spark data warehousing hadoop,technology analytics infrastructure data engineering,Data Engineer
+22,PhD,prototyping ui design adobe xd sketch usability testing,technology design psychology creativity,UI/UX Designer
+38,Master's,linux penetration testing incident response siem,cybersecurity privacy,Cybersecurity Analyst
+31,Bachelor's,computer vision deep learning python image processing tensorflow,artificial intelligence computer vision photography research,Computer Vision Engineer
+18,Master's,react webpack typescript figma responsive design,design technology creative coding user experience,Frontend Developer
+35,Master's,deep learning statistics pytorch paper writing,research academia,AI Researcher
+27,Bachelor's,azure kubernetes ci/cd docker,technology infrastructure cloud computing engineering,Cloud Engineer
+19,PhD,research paper writing deep learning natural language processing python,innovation artificial intelligence academia technology,AI Researcher
+25,Master's,google analytics data analysis ppc email marketing marketing automation,creativity social media marketing,Digital Marketer
+38,Bachelor's,feature engineering pytorch docker python scikit-learn,research technology artificial intelligence software engineering,Machine Learning Engineer
+35,Master's,text classification deep learning huggingface python,linguistics artificial intelligence,NLP Engineer
+33,Bachelor's,branding data analysis content marketing,marketing communications social media business,Digital Marketer
+40,Master's,risk management communication documentation budgeting,business strategy team collaboration management,Project Manager
+19,Bachelor's,computer vision opencv pytorch,photography technology,Computer Vision Engineer
+36,Master's,marketing wordpress editing analytics social media,media creativity communications,Content Strategist
+25,Master's,opencv data augmentation python convolutional neural networks,technology artificial intelligence photography research,Computer Vision Engineer
+36,Master's,ansible ci/cd git,system reliability technology engineering,DevOps Engineer
+23,Master's,pytorch natural language processing huggingface transformers deep learning python,technology linguistics artificial intelligence research,NLP Engineer
+29,PhD,natural language processing paper writing statistics computer vision tensorflow mathematics,innovation technology,AI Researcher
+32,Bachelor's,spark kafka python data warehousing,data engineering analytics technology infrastructure,Data Engineer
+38,Bachelor's,rest api java ios react native flutter firebase,technology design,Mobile Developer
+30,PhD,serial communication embedded linux c assembly,iot hardware,Embedded Systems Engineer
+33,Bachelor's,ui development html webpack typescript,web development technology,Frontend Developer
+38,Master's,natural language processing deep learning computer vision statistics python,innovation artificial intelligence,AI Researcher
+33,Bachelor's,marketing automation ppc social media marketing,marketing business creativity,Digital Marketer
+36,Bachelor's,microservices nodejs docker spring boot python,problem solving technology software development system architecture,Backend Developer
+39,Master's,vulnerability assessment penetration testing network security,problem solving cybersecurity,Cybersecurity Analyst
+25,Bachelor's,computer vision object detection python image processing,photography computer vision technology,Computer Vision Engineer
+36,Bachelor's,etl sql data warehousing spark cloud platforms,data engineering analytics technology,Data Engineer
+22,Master's,microcontrollers pcb design iot hardware programming serial communication,iot automation electronics hardware,Embedded Systems Engineer
+33,Master's,shell scripting linux aws,engineering infrastructure technology,DevOps Engineer
+32,Bachelor's,marketing social media editing content writing storytelling seo,media communications writing marketing,Content Strategist
+26,Bachelor's,git javascript sql nodejs react html,software engineering web development,Full Stack Developer
+37,Master's,python statistics deep learning,innovation research,AI Researcher
+24,Bachelor's,design thinking adobe xd usability testing sketch ui design prototyping,design psychology technology user experience,UI/UX Designer
+31,Bachelor's,java react native mobile ui,mobile technology user experience,Mobile Developer
+32,Bachelor's,css react webpack typescript,user experience web development technology creative coding,Frontend Developer
+35,Bachelor's,marketing editing social media copywriting storytelling,creativity communications media,Content Strategist
+19,Bachelor's,mongodb javascript nodejs css git,web development technology entrepreneurship,Full Stack Developer
+39,Bachelor's,python spring boot system design rest api,system architecture technology engineering problem solving,Backend Developer
+26,Master's,embedded linux assembly rtos pcb design,engineering hardware,Embedded Systems Engineer
+19,PhD,ios rest api flutter android firebase,app development mobile technology,Mobile Developer
+30,Master's,android java kotlin mobile ui swift rest api,app development mobile technology,Mobile Developer
+29,Bachelor's,excel power bi pandas python,data science finance decision making business,Data Analyst
+19,Bachelor's,python data visualization tableau business intelligence statistics sql,business finance analytics data science,Data Analyst
+27,Master's,pytorch convolutional neural networks data augmentation,computer vision photography technology artificial intelligence,Computer Vision Engineer
+32,Bachelor's,risk management budgeting jira scrum stakeholder management project planning,team collaboration leadership,Project Manager
+29,Bachelor's,mobile ui android kotlin rest api react native,design technology mobile technology,Mobile Developer
+21,PhD,kubernetes git linux ci/cd monitoring shell scripting,technology system reliability infrastructure,DevOps Engineer
+34,Bachelor's,java android mobile ui swift flutter react native,app development design,Mobile Developer
+36,Bachelor's,marketing automation copywriting branding social media marketing content marketing,creativity communications,Digital Marketer
+32,Master's,penetration testing ethical hacking firewalls linux,technology digital forensics cybersecurity,Cybersecurity Analyst
+19,Bachelor's,usability testing css adobe xd wireframing ui design,design creativity psychology technology,UI/UX Designer
+35,Master's,wireframing sketch usability testing ui design prototyping,technology design user experience creativity,UI/UX Designer
+40,Master's,aws cloud architecture azure,automation engineering,Cloud Engineer
+24,Bachelor's,firewalls penetration testing ethical hacking cryptography,cybersecurity technology,Cybersecurity Analyst
+18,Bachelor's,risk management agile communication scrum budgeting,management leadership,Project Manager
+30,Master's,docker mongodb javascript html git sql,problem solving entrepreneurship software engineering web development,Full Stack Developer
+23,PhD,data analysis content marketing copywriting email marketing seo google analytics,communications marketing business social media,Digital Marketer
+24,Bachelor's,microservices data pipelines spring boot system design rest api java,system architecture technology problem solving software development,Backend Developer
+24,Bachelor's,object detection opencv deep learning pytorch python,computer vision research,Computer Vision Engineer
+23,Master's,reporting excel tableau terraform data visualization business intelligence,business decision making,Data Analyst
+28,PhD,nodejs javascript docker microservices sql,problem solving entrepreneurship web development,Full Stack Developer
+25,PhD,responsive design figma react webpack css html,web development creative coding design,Frontend Developer
+30,Bachelor's,budgeting project planning jira,team collaboration management,Project Manager
+35,Bachelor's,nodejs rest api javascript git,entrepreneurship web development problem solving software engineering,Full Stack Developer
+25,Master's,hardware programming rtos embedded linux c c++,engineering iot hardware,Embedded Systems Engineer
+20,Bachelor's,tensorflow python computer vision data augmentation,photography artificial intelligence computer vision technology,Computer Vision Engineer
+29,Master's,c assembly rtos microcontrollers pcb design,engineering hardware electronics,Embedded Systems Engineer
+33,Master's,webpack css react typescript,technology user experience web development design,Frontend Developer
+28,PhD,javascript responsive design react vue ui development,web development design technology,Frontend Developer
+36,Bachelor's,business intelligence process modeling stakeholder management data analysis excel,problem solving business analytics,Business Analyst
+20,Master's,deep learning pytorch scikit-learn,technology software engineering artificial intelligence,Machine Learning Engineer
+20,Master's,vulnerability assessment text classification transformers,linguistics technology research,NLP Engineer
+39,Master's,documentation process modeling agile sql data analysis,problem solving analytics,Business Analyst
+25,Bachelor's,scikit-learn statistics machine learning numpy pandas deep learning,analytics data science,Data Scientist
+24,Bachelor's,branding content marketing ppc data analysis seo,business social media marketing,Digital Marketer
+24,Bachelor's,convolutional neural networks computer vision image processing python data augmentation opencv,photography computer vision artificial intelligence research,Computer Vision Engineer
+25,Bachelor's,html nodejs sql react rest api javascript,software engineering web development entrepreneurship,Full Stack Developer
+27,Bachelor's,typescript figma javascript html,web development user experience,Frontend Developer
+36,Bachelor's,microservices sql databases,engineering software development,Backend Developer
+27,Master's,linux aws google cloud docker,automation technology engineering infrastructure,Cloud Engineer
+24,Master's,mathematics tensorflow natural language processing python,research academia,AI Researcher
+33,PhD,agile communication stakeholder management jira,leadership strategy business management,Project Manager
+27,Bachelor's,mlops python deep learning scikit-learn,automation research software engineering,Machine Learning Engineer
+40,Master's,agile excel requirements gathering documentation,problem solving management business,Business Analyst
+37,Master's,seo ppc content marketing branding email marketing,communications social media,Digital Marketer
+39,Master's,data analysis requirements gathering sql,strategy analytics business,Business Analyst
+26,Master's,spring boot sql java,system architecture technology engineering problem solving,Backend Developer
+21,Bachelor's,c++ embedded linux c,automation electronics,Embedded Systems Engineer
+38,Master's,react typescript html css responsive design webpack,technology design creative coding user experience,Frontend Developer
+35,Master's,airflow data pipelines etl python cloud platforms,big data technology infrastructure,Data Engineer
+29,Master's,firewalls ethical hacking linux penetration testing siem,digital forensics technology privacy,Cybersecurity Analyst
+33,Bachelor's,process modeling documentation power bi data analysis business intelligence,analytics strategy problem solving management,Business Analyst
+30,Bachelor's,statistics ci/cd tableau data visualization,data science analytics business,Data Analyst
+38,Master's,penetration testing cryptography ethical hacking vulnerability assessment,privacy technology cybersecurity,Cybersecurity Analyst
+27,Master's,excel stakeholder management power bi requirements gathering sql,problem solving analytics strategy management,Business Analyst
+40,Bachelor's,figma sketch usability testing,user experience technology creativity design,UI/UX Designer
+21,Bachelor's,data analysis python data visualization,analytics data science technology,Data Scientist
+34,Bachelor's,bert spacy text classification huggingface,language artificial intelligence linguistics research,NLP Engineer
+38,Master's,data visualization python statistics tableau,analytics finance decision making,Data Analyst
+21,Bachelor's,sql nodejs python microservices databases rest api,problem solving technology system architecture,Backend Developer
+38,Bachelor's,python pandas statistics,research artificial intelligence data science,Data Scientist
+37,Bachelor's,computer vision pytorch opencv,research photography artificial intelligence,Computer Vision Engineer
+23,PhD,spark etl data warehousing airflow sql,technology big data analytics,Data Engineer
+22,PhD,javascript webpack vue figma responsive design,design user experience web development,Frontend Developer
+37,Master's,sql business intelligence agile power bi requirements gathering,problem solving business management,Business Analyst
+39,Bachelor's,object detection image processing convolutional neural networks pytorch data augmentation deep learning,artificial intelligence technology research,Computer Vision Engineer
+18,Bachelor's,mobile ui kotlin swift firebase react native rest api,app development design technology,Mobile Developer
+26,Bachelor's,image processing opencv object detection,computer vision technology photography,Computer Vision Engineer
+25,Bachelor's,spacy python bert huggingface pytorch natural language processing,technology research,NLP Engineer
+26,Master's,java rest api nodejs spring boot,technology system architecture problem solving,Backend Developer
+29,Bachelor's,process modeling data analysis agile stakeholder management,business problem solving,Business Analyst
+20,Bachelor's,adobe xd user research usability testing figma,technology design user experience,UI/UX Designer
+33,Master's,wireframing user research ui design sketch usability testing css,technology creativity user experience psychology,UI/UX Designer
+34,Master's,stakeholder management project planning communication,strategy management business,Project Manager
+36,Master's,social media wordpress editing copywriting,communications marketing media,Content Strategist
+24,Master's,power bi stakeholder management excel business intelligence process modeling,analytics strategy management problem solving,Business Analyst
+18,PhD,kubernetes shell scripting aws ansible linux git,technology automation system reliability,DevOps Engineer
+36,Bachelor's,bert python text classification deep learning,language artificial intelligence linguistics,NLP Engineer
+24,Master's,opencv tensorflow pytorch deep learning computer vision,research computer vision artificial intelligence,Computer Vision Engineer
+24,Bachelor's,javascript css vue webpack,design web development creative coding user experience,Frontend Developer
+36,PhD,android firebase wireframing ios swift,user experience design,Mobile Developer
+39,Master's,css vue ui development,technology user experience creative coding,Frontend Developer
+35,Bachelor's,figma user research design thinking,creativity user experience technology design,UI/UX Designer
+24,Bachelor's,linux terraform kubernetes aws cloud architecture,automation engineering cloud computing technology,Cloud Engineer
+35,Master's,leadership budgeting risk management object detection,leadership team collaboration strategy business,Project Manager
+30,Bachelor's,sql data pipelines kafka,big data data engineering,Data Engineer
+19,Bachelor's,sql kafka airflow hadoop data warehousing,data engineering big data technology,Data Engineer
+22,PhD,kafka sql spark airflow cloud platforms python,analytics big data data engineering technology,Data Engineer
+19,Bachelor's,css react ui development,user experience web development,Frontend Developer
+23,Master's,ethical hacking incident response vulnerability assessment siem,digital forensics technology cybersecurity,Cybersecurity Analyst
+30,Master's,ppc seo branding content marketing,business communications,Digital Marketer
+29,PhD,mlops feature engineering scikit-learn python deep learning model deployment,software engineering research automation,Machine Learning Engineer
+36,Bachelor's,python nodejs databases system design,engineering technology system architecture problem solving,Backend Developer
+33,Master's,ios rest api kotlin flutter android mobile ui,design user experience technology,Mobile Developer
+22,PhD,javascript css git sql mongodb,web development entrepreneurship problem solving,Full Stack Developer
+32,Bachelor's,paper writing docker mathematics natural language processing,academia artificial intelligence,AI Researcher
+23,Bachelor's,kafka spark airflow sql,infrastructure big data technology data engineering,Data Engineer
+24,Bachelor's,firebase rest api java kotlin flutter react native,design mobile technology user experience technology,Mobile Developer
+37,Master's,python sql hadoop kafka data pipelines airflow,big data infrastructure,Data Engineer
+24,Bachelor's,kubernetes ansible linux ci/cd monitoring git,infrastructure automation engineering technology,DevOps Engineer
+40,Master's,bert deep learning transformers python nltk,linguistics language technology research,NLP Engineer
+20,Bachelor's,docker kubernetes google cloud,automation technology cloud computing,Cloud Engineer
+37,Master's,analytics editing social media content planning wordpress,communications marketing,Content Strategist
+27,PhD,bert huggingface pytorch deep learning python transformers,linguistics technology research language,NLP Engineer
+22,PhD,css docker html sql react,problem solving entrepreneurship software engineering web development,Full Stack Developer
+31,Bachelor's,git docker linux kubernetes ansible,engineering infrastructure automation technology,DevOps Engineer
+37,Bachelor's,pytorch scikit-learn deep learning feature engineering,automation artificial intelligence research,Machine Learning Engineer
+22,Bachelor's,deep learning text classification spacy bert,research technology,NLP Engineer
+29,Bachelor's,research mathematics statistics deep learning natural language processing computer vision,innovation research,AI Researcher
+21,Bachelor's,kubernetes terraform cloud architecture azure linux,technology automation cloud computing engineering,Cloud Engineer
+35,Master's,adobe xd figma wireframing user research,technology creativity,UI/UX Designer
+36,Master's,convolutional neural networks data augmentation tensorflow,technology artificial intelligence photography research,Computer Vision Engineer
+31,Master's,machine learning docker python pytorch model deployment tensorflow,artificial intelligence research automation technology,Machine Learning Engineer
+30,Master's,python tensorflow natural language processing statistics,technology innovation artificial intelligence research,AI Researcher
+38,PhD,css ui design design thinking,creativity design,UI/UX Designer
+32,Master's,docker linux terraform,system reliability engineering technology,DevOps Engineer
+18,Master's,terraform linux shell scripting kubernetes,technology infrastructure,DevOps Engineer
+38,Bachelor's,computer vision pytorch deep learning natural language processing,research artificial intelligence,AI Researcher
+29,Bachelor's,nltk huggingface transformers,artificial intelligence research technology language,NLP Engineer
+35,Bachelor's,iot rtos serial communication,engineering iot automation,Embedded Systems Engineer
+36,Bachelor's,databases java sql nodejs microservices system design,engineering problem solving,Backend Developer
+33,Bachelor's,ethical hacking siem penetration testing,technology privacy digital forensics,Cybersecurity Analyst
+34,Bachelor's,vue webpack figma,technology design,Frontend Developer
+23,Bachelor's,editing content writing storytelling seo content planning marketing,marketing media writing,Content Strategist
+30,Master's,vulnerability assessment ethical hacking linux firewalls penetration testing,problem solving digital forensics technology,Cybersecurity Analyst
+23,Master's,html javascript nodejs rest api css,problem solving software engineering,Full Stack Developer
+19,Master's,sql cloud platforms kafka data pipelines spark etl,infrastructure analytics big data technology,Data Engineer
+26,Bachelor's,azure ios flutter swift android mobile ui,mobile technology technology,Mobile Developer
+31,Bachelor's,user research wireframing usability testing figma,technology psychology user experience design,UI/UX Designer
+24,Bachelor's,data analysis social media marketing email marketing marketing automation branding,social media communications marketing,Digital Marketer
+31,Bachelor's,ci/cd azure cloud architecture networking terraform aws,infrastructure cloud computing engineering automation,Cloud Engineer
+31,Master's,cloud architecture terraform kubernetes docker azure networking,engineering infrastructure cloud computing technology,Cloud Engineer
+25,Master's,python deep learning data augmentation convolutional neural networks computer vision,artificial intelligence research computer vision,Computer Vision Engineer
+18,PhD,reporting business intelligence sql pandas,finance decision making data science business,Data Analyst
+37,Bachelor's,terraform google cloud ci/cd aws docker azure,technology cloud computing,Cloud Engineer
+33,Bachelor's,content marketing data analysis social media marketing copywriting ppc,business creativity,Digital Marketer
+25,Master's,flutter java swift firebase ios,technology app development,Mobile Developer
+34,Bachelor's,documentation sql requirements gathering excel process modeling,problem solving analytics,Business Analyst
+36,Master's,webpack javascript ui development react css vue,user experience creative coding web development technology,Frontend Developer
+38,Master's,data analysis scikit-learn deep learning pandas data visualization numpy,research analytics,Data Scientist
+28,Master's,deep learning numpy data visualization sql data analysis python,analytics data science,Data Scientist
+26,Master's,responsive design html webpack ui development,user experience web development technology,Frontend Developer
+37,Master's,excel power bi data visualization sql reporting,decision making data science,Data Analyst
+23,PhD,paper writing computer vision python,research artificial intelligence innovation academia,AI Researcher
+19,Bachelor's,budgeting project planning documentation stakeholder management risk management jira,management leadership business team collaboration,Project Manager
+26,Master's,spacy bert text classification pytorch natural language processing python,linguistics language artificial intelligence technology,NLP Engineer
+39,Bachelor's,data analysis numpy machine learning pandas deep learning,artificial intelligence research,Data Scientist
+36,PhD,process modeling excel requirements gathering stakeholder management,management problem solving,Business Analyst
+31,Bachelor's,kotlin swift android firebase,technology app development,Mobile Developer
+26,Master's,serial communication assembly iot embedded linux pcb design c++,automation electronics engineering,Embedded Systems Engineer
+28,Master's,rest api java firebase,mobile technology app development,Mobile Developer
+31,Bachelor's,pytorch nltk python,research technology artificial intelligence,NLP Engineer
+20,Bachelor's,android sql requirements gathering stakeholder management power bi business intelligence,strategy business analytics,Business Analyst
+21,Bachelor's,assembly pcb design serial communication,iot engineering electronics automation,Embedded Systems Engineer
+21,Master's,sql tableau reporting business intelligence excel power bi,analytics decision making data science,Data Analyst
+23,Master's,analytics content planning seo copywriting storytelling,communications creativity marketing media,Content Strategist
+21,Master's,reporting statistics python data visualization,business decision making,Data Analyst
+32,PhD,social media content planning content writing editing copywriting analytics,creativity media marketing,Content Strategist
+24,Bachelor's,docker machine learning model deployment,research technology artificial intelligence,Machine Learning Engineer
+34,PhD,social media marketing seo google analytics email marketing branding ppc,business creativity communications,Digital Marketer
+32,Bachelor's,siem incident response penetration testing,cybersecurity technology,Cybersecurity Analyst
+27,Master's,c++ embedded linux rtos pcb design iot,automation hardware iot,Embedded Systems Engineer
+28,Bachelor's,sql process modeling stakeholder management,problem solving analytics,Business Analyst
+38,Master's,seo analytics social media wordpress marketing,marketing media,Content Strategist
+22,Master's,pytorch text classification bert nltk python,technology linguistics language,NLP Engineer
+30,Master's,airflow kafka python,technology big data analytics,Data Engineer
+20,PhD,python java microservices databases spring boot rest api,software development system architecture engineering,Backend Developer
+33,Bachelor's,editing marketing social media,media communications creativity marketing,Content Strategist
+30,Bachelor's,adobe xd sketch design thinking prototyping,psychology technology,UI/UX Designer
+21,Bachelor's,text classification pytorch bert transformers nltk,language artificial intelligence linguistics technology,NLP Engineer
+22,PhD,computer vision opencv image processing,photography artificial intelligence technology,Computer Vision Engineer
+25,Master's,deep learning machine learning mlops,software engineering artificial intelligence,Machine Learning Engineer
+32,Master's,docker scikit-learn pytorch,artificial intelligence research automation technology,Machine Learning Engineer
+27,Bachelor's,agile data analysis power bi business intelligence,problem solving management,Business Analyst
+34,Bachelor's,rest api nodejs sql python,problem solving technology software development system architecture,Backend Developer
+19,Master's,pandas machine learning data analysis,technology artificial intelligence,Data Scientist
+28,Master's,incident response linux vulnerability assessment cryptography ethical hacking penetration testing,digital forensics cybersecurity problem solving privacy,Cybersecurity Analyst
+40,Bachelor's,wordpress analytics content writing social media,creativity marketing media communications,Content Strategist
+29,PhD,figma typescript react responsive design,design web development,Frontend Developer
+24,Bachelor's,monitoring ci/cd terraform aws,automation system reliability,DevOps Engineer
+23,Bachelor's,data analysis ppc social media marketing,creativity business,Digital Marketer
+27,Bachelor's,rtos iot c++ embedded linux,automation hardware iot electronics,Embedded Systems Engineer
+28,Master's,user research usability testing figma sketch wireframing,design creativity user experience psychology,UI/UX Designer
+23,Master's,storytelling wordpress social media copywriting content planning content writing,creativity media marketing,Content Strategist
+40,Master's,copywriting marketing automation google analytics ppc branding,communications social media marketing business,Digital Marketer
+39,Master's,hadoop python airflow,big data data engineering,Data Engineer
+26,Bachelor's,cryptography ethical hacking incident response,technology problem solving,Cybersecurity Analyst
+38,Master's,kubernetes google cloud terraform docker ci/cd networking,automation technology,Cloud Engineer
+30,Bachelor's,scrum risk management stakeholder management,strategy business,Project Manager
+38,Master's,networking kubernetes docker azure,technology automation infrastructure,Cloud Engineer
+18,Bachelor's,ppc seo marketing automation social media marketing,creativity social media,Digital Marketer
+37,PhD,typescript ui development vue html,design web development user experience creative coding,Frontend Developer
+19,Master's,python airflow cloud platforms,big data data engineering,Data Engineer
+22,Bachelor's,rest api java nodejs spring boot docker,system architecture software development,Backend Developer
+34,Master's,shell scripting ansible terraform git linux,automation infrastructure,DevOps Engineer
+29,Master's,python sql numpy machine learning deep learning,technology research,Data Scientist
+25,PhD,python statistics machine learning pandas,analytics artificial intelligence data science research,Data Scientist
+23,Bachelor's,mongodb git rest api html,technology software engineering web development entrepreneurship,Full Stack Developer
+19,Bachelor's,leadership stakeholder management budgeting,management business,Project Manager
+19,Bachelor's,excel power bi statistics tableau,decision making business finance,Data Analyst
+20,Bachelor's,social media marketing branding copywriting,creativity communications,Digital Marketer
+33,Bachelor's,java system design spring boot,engineering system architecture software development technology,Backend Developer
+24,Master's,communication documentation leadership scrum jira,management team collaboration strategy,Project Manager
+25,Bachelor's,scikit-learn statistics data analysis,artificial intelligence data science,Data Scientist
+20,Bachelor's,content planning storytelling editing copywriting social media,communications media,Content Strategist
+35,Bachelor's,shell scripting ci/cd docker ansible,automation engineering system reliability technology,DevOps Engineer
+22,PhD,excel data analysis stakeholder management power bi process modeling,problem solving strategy management business,Business Analyst
+28,Bachelor's,documentation sql stakeholder management business intelligence agile,analytics problem solving,Business Analyst
+26,Bachelor's,firebase kotlin mobile ui,app development technology mobile technology user experience,Mobile Developer
+36,Bachelor's,power bi python pandas tableau,business analytics,Data Analyst
+38,Bachelor's,branding google analytics marketing automation copywriting social media marketing seo,business creativity,Digital Marketer
+18,Bachelor's,network security python firewalls,privacy digital forensics,Cybersecurity Analyst
+33,Master's,embedded linux rtos c,hardware electronics iot,Embedded Systems Engineer
+34,Bachelor's,terraform docker kubernetes ci/cd linux monitoring,system reliability automation,DevOps Engineer
+22,Master's,html javascript figma react,technology design,Frontend Developer
+35,Bachelor's,react webpack figma javascript html typescript,technology user experience design,Frontend Developer
+37,Master's,sql deep learning data analysis scikit-learn data visualization pandas,technology artificial intelligence analytics research,Data Scientist
+27,PhD,mongodb javascript css,web development software engineering entrepreneurship technology,Full Stack Developer
+27,Bachelor's,azure cloud architecture terraform ci/cd docker networking,infrastructure technology,Cloud Engineer
+39,Master's,scikit-learn deep learning statistics,analytics technology,Data Scientist
+32,Bachelor's,javascript sql html docker,problem solving entrepreneurship,Full Stack Developer
+29,Master's,docker pytorch machine learning,automation artificial intelligence research,Machine Learning Engineer
+20,Bachelor's,requirements gathering sql excel process modeling documentation business intelligence,management business,Business Analyst
+25,Master's,python pandas scikit-learn sql statistics machine learning,research data science,Data Scientist
+22,Bachelor's,cryptography firewalls vulnerability assessment,technology privacy problem solving digital forensics,Cybersecurity Analyst
+31,Bachelor's,python docker databases system design,technology system architecture,Backend Developer
+32,Master's,paper writing mathematics pytorch research,innovation technology,AI Researcher
+20,PhD,opencv computer vision pytorch,computer vision research,Computer Vision Engineer
+19,PhD,embedded linux serial communication assembly,automation iot electronics hardware,Embedded Systems Engineer
+31,Master's,jira budgeting communication agile project planning stakeholder management,management business strategy,Project Manager
+35,PhD,python deep learning pytorch,technology software engineering automation research,Machine Learning Engineer
+34,Master's,object detection deep learning python data augmentation opencv,computer vision technology artificial intelligence,Computer Vision Engineer
+34,Bachelor's,branding google analytics marketing automation ppc social media marketing content marketing,social media business,Digital Marketer
+31,Bachelor's,prototyping wireframing figma usability testing sketch,psychology user experience creativity,UI/UX Designer
+34,Bachelor's,networking docker terraform,automation cloud computing technology,Cloud Engineer
+28,Master's,agile risk management scrum,leadership business strategy,Project Manager
+32,Master's,assembly hardware programming c serial communication embedded linux rtos,engineering hardware,Embedded Systems Engineer
+21,Bachelor's,terraform aws google cloud,automation infrastructure,Cloud Engineer
+31,Master's,kubernetes google cloud aws,engineering cloud computing,Cloud Engineer
+29,PhD,pandas power bi tableau python excel,finance analytics data science,Data Analyst
+30,Bachelor's,kafka sql etl,technology big data infrastructure analytics,Data Engineer
+39,Bachelor's,html nodejs rest api git mongodb docker,entrepreneurship problem solving,Full Stack Developer
+40,Bachelor's,python deep learning computer vision image processing opencv object detection,research photography,Computer Vision Engineer
+28,Bachelor's,mongodb react nodejs sql,technology software engineering entrepreneurship,Full Stack Developer
+20,Master's,sql data analysis documentation,management strategy,Business Analyst
+32,PhD,marketing wordpress analytics content planning,communications creativity writing,Content Strategist
+19,Master's,penetration testing incident response cryptography linux,cybersecurity digital forensics technology,Cybersecurity Analyst
+40,Master's,documentation process modeling stakeholder management requirements gathering,problem solving business,Business Analyst
+25,Bachelor's,adobe xd css usability testing sketch ui design,psychology user experience creativity design,UI/UX Designer
+25,Master's,image processing tensorflow python deep learning pytorch convolutional neural networks,artificial intelligence technology photography,Computer Vision Engineer
+22,Master's,feature engineering mlops tensorflow deep learning pytorch,automation research technology artificial intelligence,Machine Learning Engineer
+23,PhD,marketing automation copywriting data analysis branding social media marketing,creativity business marketing communications,Digital Marketer
+23,Master's,machine learning python scikit-learn,artificial intelligence automation research software engineering,Machine Learning Engineer
+24,Master's,natural language processing text classification python nltk pytorch deep learning,linguistics research,NLP Engineer
+30,Bachelor's,android mobile ui ios,technology design user experience,Mobile Developer
+39,Master's,html css git mongodb,web development problem solving,Full Stack Developer
+38,Bachelor's,convolutional neural networks data augmentation python deep learning tensorflow opencv,photography computer vision artificial intelligence,Computer Vision Engineer
+20,Master's,typescript figma ui development react responsive design html,web development creative coding technology,Frontend Developer
+40,Bachelor's,business intelligence excel statistics reporting data visualization,business finance decision making,Data Analyst
+28,PhD,documentation risk management agile project planning jira communication,team collaboration business strategy,Project Manager
+37,Bachelor's,sql react marketing,problem solving technology,Full Stack Developer
+37,Bachelor's,reporting sql power bi,data science business analytics finance,Data Analyst
+37,Bachelor's,design thinking user research prototyping ui design,user experience psychology technology creativity,UI/UX Designer
+39,Bachelor's,vulnerability assessment ethical hacking cryptography siem,cybersecurity problem solving technology digital forensics,Cybersecurity Analyst
+27,Master's,power bi tableau data visualization business intelligence,analytics business,Data Analyst
+19,Bachelor's,stakeholder management leadership seo documentation agile,strategy management team collaboration leadership,Project Manager
+35,Bachelor's,python docker rest api microservices,software development system architecture problem solving,Backend Developer
+29,Bachelor's,project planning scrum budgeting stakeholder management,strategy leadership management,Project Manager
+25,Master's,excel pandas statistics python python,data science finance business analytics,Data Analyst
+22,PhD,feature engineering scikit-learn mlops machine learning docker model deployment,research technology software engineering,Machine Learning Engineer
+25,Bachelor's,terraform ci/cd linux,automation infrastructure technology engineering,DevOps Engineer
+35,Master's,microservices docker sql,software development system architecture,Backend Developer
+36,Bachelor's,user research css design thinking adobe xd figma sketch,technology user experience psychology creativity,UI/UX Designer
+34,PhD,swift java flutter kotlin,technology mobile technology app development,Mobile Developer
+29,PhD,networking docker terraform cloud architecture kubernetes azure,infrastructure engineering,Cloud Engineer
+23,Bachelor's,linux firewalls vulnerability assessment python incident response,digital forensics privacy problem solving cybersecurity,Cybersecurity Analyst
+33,Bachelor's,design thinking css user research,design user experience,UI/UX Designer
+36,Master's,vue responsive design figma,web development user experience design,Frontend Developer
+21,Bachelor's,sql pandas python,finance business analytics,Data Analyst
+20,PhD,react native java swift,mobile technology app development design technology,Mobile Developer
+40,Bachelor's,react sql nodejs html mongodb git,problem solving technology web development,Full Stack Developer
+18,Master's,css design thinking ui design,psychology user experience,UI/UX Designer
+25,Bachelor's,docker ci/cd google cloud aws kubernetes,infrastructure automation cloud computing,Cloud Engineer
+35,Master's,pandas pandas sql data visualization tableau statistics,business data science analytics finance,Data Analyst
+29,Bachelor's,java databases nodejs,technology software development engineering problem solving,Backend Developer
+37,Master's,pytorch paper writing computer vision statistics python tensorflow,research artificial intelligence academia innovation,AI Researcher
+19,Bachelor's,wordpress copywriting analytics editing seo,media writing communications,Content Strategist
+20,Bachelor's,design thinking figma user research usability testing prototyping,creativity psychology user experience,UI/UX Designer
+23,Bachelor's,aws kubernetes google cloud azure ci/cd,technology cloud computing automation engineering,Cloud Engineer
+22,Bachelor's,tensorflow deep learning machine learning docker,automation technology software engineering research,Machine Learning Engineer
+28,PhD,ppc data analysis marketing automation branding,social media marketing communications,Digital Marketer
+21,Master's,responsive design pytorch spacy python,linguistics research,NLP Engineer
+19,Bachelor's,google analytics ppc content marketing copywriting,communications marketing business creativity,Digital Marketer
+26,Bachelor's,machine learning scikit-learn pandas numpy sql,artificial intelligence analytics,Data Scientist
+40,Bachelor's,networking aws terraform ci/cd,engineering infrastructure cloud computing,Cloud Engineer
+38,Bachelor's,research mathematics deep learning,innovation technology,AI Researcher
+36,Master's,vue figma responsive design webpack css,user experience design technology,Frontend Developer
+39,Bachelor's,rest api css react sql docker,web development entrepreneurship,Full Stack Developer
+18,Master's,reporting pandas power bi python,finance data science analytics business,Data Analyst
+25,Master's,css html rest api javascript,web development entrepreneurship,Full Stack Developer
+37,Master's,react css git,problem solving software engineering technology,Full Stack Developer
+22,Bachelor's,figma webpack ui development vue,creative coding web development technology,Frontend Developer
+20,Master's,image processing convolutional neural networks data augmentation object detection pytorch python,computer vision artificial intelligence,Computer Vision Engineer
+37,Master's,pytorch python model deployment docker,technology software engineering artificial intelligence research,Machine Learning Engineer
+18,Bachelor's,python excel power bi,decision making finance data science,Data Analyst
+36,Bachelor's,c++ assembly rtos c iot serial communication,iot automation engineering,Embedded Systems Engineer
+24,Bachelor's,object detection deep learning convolutional neural networks tensorflow image processing,artificial intelligence research computer vision photography,Computer Vision Engineer
+18,Bachelor's,data analysis marketing automation content marketing ppc copywriting,social media communications business,Digital Marketer
+35,Bachelor's,sql computer vision opencv object detection deep learning tensorflow,photography artificial intelligence,Computer Vision Engineer
+22,Master's,android firebase swift ios mobile ui rest api,technology mobile technology,Mobile Developer
+39,Master's,excel requirements gathering stakeholder management business intelligence data analysis,management analytics,Business Analyst
+31,PhD,google analytics seo marketing automation branding,social media marketing,Digital Marketer
+37,Master's,adobe xd css ui design prototyping,user experience psychology,UI/UX Designer
+28,Master's,feature engineering pytorch deep learning,technology artificial intelligence automation,Machine Learning Engineer
+18,PhD,stakeholder management requirements gathering process modeling,analytics business,Business Analyst
+27,Master's,marketing automation google analytics data analysis branding content marketing seo,creativity communications,Digital Marketer
+33,Bachelor's,kubernetes linux aws google cloud,infrastructure technology,Cloud Engineer
+40,PhD,budgeting documentation scrum agile risk management,team collaboration strategy business leadership,Project Manager
+18,PhD,stakeholder management documentation communication risk management project planning,leadership team collaboration business management,Project Manager
+31,Bachelor's,docker git rest api nodejs javascript statistics,problem solving entrepreneurship,Full Stack Developer
+29,Master's,css react figma javascript html,technology web development design,Frontend Developer
+29,Bachelor's,python image processing tensorflow opencv,computer vision artificial intelligence photography,Computer Vision Engineer
+40,Master's,c serial communication hardware programming assembly pcb design,hardware engineering,Embedded Systems Engineer
+25,Master's,git mongodb nodejs rest api css,software engineering technology,Full Stack Developer
+27,Master's,linux incident response network security cryptography siem penetration testing,digital forensics technology problem solving cybersecurity,Cybersecurity Analyst
+39,Bachelor's,nodejs microservices python,engineering software development system architecture problem solving,Backend Developer
+28,Master's,terraform ansible kubernetes monitoring git,technology automation infrastructure,DevOps Engineer
+38,Master's,sql java databases rest api,problem solving software development engineering system architecture,Backend Developer
+27,Master's,power bi sql excel documentation process modeling stakeholder management,analytics problem solving management,Business Analyst
+39,Bachelor's,firewalls vulnerability assessment linux,digital forensics problem solving privacy,Cybersecurity Analyst
+24,Bachelor's,adobe xd figma usability testing sketch,design psychology,UI/UX Designer
+21,Master's,css mongodb javascript html,software engineering problem solving web development technology,Full Stack Developer
+28,PhD,communication stakeholder management documentation scrum leadership,business management,Project Manager
+31,Bachelor's,communication agile risk management documentation budgeting,business strategy team collaboration,Project Manager
+40,PhD,email marketing content marketing google analytics branding,creativity marketing social media,Digital Marketer
+33,Bachelor's,deep learning pytorch opencv convolutional neural networks,research artificial intelligence photography computer vision,Computer Vision Engineer
+23,Master's,budgeting leadership stakeholder management communication project planning,strategy business,Project Manager
+27,Bachelor's,html react typescript,design creative coding,Frontend Developer
+31,Bachelor's,email marketing social media marketing data analysis,business creativity marketing social media,Digital Marketer
+33,PhD,aws linux ci/cd,technology infrastructure cloud computing automation,Cloud Engineer
+29,Bachelor's,model deployment mlops machine learning tensorflow,research technology,Machine Learning Engineer
+22,Bachelor's,mlops pytorch deep learning tensorflow python feature engineering,research software engineering,Machine Learning Engineer
+23,Bachelor's,networking google cloud terraform kubernetes docker,technology infrastructure cloud computing,Cloud Engineer
+38,Bachelor's,statistics data analysis python,technology artificial intelligence,Data Scientist
+38,Master's,spacy python deep learning,research linguistics artificial intelligence language,NLP Engineer
+20,Bachelor's,networking ci/cd google cloud,engineering automation infrastructure technology,Cloud Engineer
+34,PhD,pandas reporting sql data visualization power bi,data science decision making,Data Analyst
+38,Master's,statistics business intelligence data visualization python,decision making business data science finance,Data Analyst
+35,Master's,javascript html webpack,user experience creative coding,Frontend Developer
+26,Master's,python databases rest api,technology problem solving,Backend Developer
+37,Bachelor's,cloud architecture kubernetes ci/cd google cloud docker,technology infrastructure,Cloud Engineer
+20,Bachelor's,requirements gathering business intelligence stakeholder management power bi,management business,Business Analyst
+19,PhD,terraform kubernetes docker cloud architecture google cloud azure,cloud computing engineering,Cloud Engineer
+23,Master's,kubernetes ansible terraform monitoring git reporting,automation technology system reliability infrastructure,DevOps Engineer
+24,PhD,excel business intelligence documentation power bi sql stakeholder management,problem solving strategy business,Business Analyst
+34,Master's,python mlops feature engineering tensorflow docker,technology software engineering,Machine Learning Engineer
+29,Bachelor's,deep learning pytorch machine learning mlops model deployment feature engineering,research artificial intelligence,Machine Learning Engineer
+20,PhD,network security siem penetration testing ethical hacking incident response,cybersecurity problem solving privacy,Cybersecurity Analyst
+28,Master's,machine learning model deployment deep learning python,automation software engineering,Machine Learning Engineer
+33,Master's,sql data visualization pandas,business data science,Data Analyst
+22,PhD,communication scrum risk management,leadership business team collaboration management,Project Manager
+20,Master's,java rest api flutter mobile ui firebase,user experience technology mobile technology,Mobile Developer
+25,Bachelor's,content planning storytelling marketing wordpress,marketing media creativity writing,Content Strategist
+31,PhD,c iot pcb design serial communication rtos,electronics automation engineering iot,Embedded Systems Engineer
+40,Bachelor's,email marketing marketing automation branding social media marketing,communications creativity social media business,Digital Marketer
+33,Bachelor's,business intelligence reporting pandas,finance analytics,Data Analyst
+31,Bachelor's,ci/cd azure cloud architecture excel google cloud,cloud computing technology infrastructure,Cloud Engineer
+33,Master's,iot microcontrollers pcb design hardware programming rtos c,hardware engineering electronics automation,Embedded Systems Engineer
+36,Master's,embedded linux assembly iot c c++,iot electronics engineering,Embedded Systems Engineer
+27,Bachelor's,sql javascript react,web development entrepreneurship,Full Stack Developer
+28,Bachelor's,microservices rest api spring boot nodejs,software development problem solving technology,Backend Developer
+22,Master's,reporting power bi pandas data visualization business intelligence,finance data science analytics,Data Analyst
+37,PhD,ci/cd aws google cloud,infrastructure technology engineering cloud computing,Cloud Engineer
+26,Bachelor's,numpy scikit-learn statistics sql machine learning,artificial intelligence research,Data Scientist
+27,PhD,git sql rest api react nodejs,software engineering technology problem solving,Full Stack Developer
+21,Master's,prototyping adobe xd usability testing figma,design technology psychology user experience,UI/UX Designer
+19,Bachelor's,monitoring terraform aws ansible linux docker,automation infrastructure system reliability technology,DevOps Engineer
+30,Bachelor's,social media wordpress copywriting,writing marketing,Content Strategist
+35,PhD,c microcontrollers assembly hardware programming,electronics iot automation,Embedded Systems Engineer
+35,PhD,rtos c iot c++ pcb design serial communication,iot automation hardware,Embedded Systems Engineer
+36,Bachelor's,risk management mlops tensorflow,research artificial intelligence,Machine Learning Engineer
+30,Bachelor's,cryptography incident response ethical hacking python vulnerability assessment linux,cybersecurity technology privacy,Cybersecurity Analyst
+39,Bachelor's,ios react native kotlin swift java,design app development technology mobile technology,Mobile Developer
+38,Bachelor's,mlops deep learning docker python machine learning feature engineering,artificial intelligence software engineering research technology,Machine Learning Engineer
+22,PhD,figma html responsive design typescript,creative coding design user experience web development,Frontend Developer
+28,Bachelor's,c pcb design embedded linux,iot engineering hardware,Embedded Systems Engineer
+23,Master's,microservices databases python system design,technology system architecture engineering,Backend Developer
+32,PhD,docker nodejs spring boot databases python,technology software development problem solving engineering,Backend Developer
+23,Bachelor's,tensorflow research deep learning mathematics computer vision,technology academia research,AI Researcher
+38,Bachelor's,leadership risk management scrum stakeholder management documentation jira,leadership strategy management,Project Manager
+29,Bachelor's,ci/cd linux terraform,infrastructure technology engineering automation,DevOps Engineer
+38,Master's,deep learning python mlops,automation software engineering,Machine Learning Engineer
+38,Master's,agile power bi data analysis sql business intelligence,strategy management problem solving,Business Analyst
+18,Master's,css figma javascript,design creative coding technology user experience,Frontend Developer
+18,Master's,marketing copywriting storytelling analytics seo content planning,marketing media,Content Strategist
+35,Master's,sql scikit-learn statistics deep learning,technology analytics data science research,Data Scientist
+19,Master's,excel business intelligence python data visualization sql,analytics decision making data science business,Data Analyst
+31,Bachelor's,transformers python spacy,research technology language artificial intelligence,NLP Engineer
+21,Bachelor's,git kubernetes linux monitoring,system reliability automation,DevOps Engineer
+26,Bachelor's,spark python data pipelines airflow cloud platforms data warehousing,technology data engineering,Data Engineer
+25,Master's,excel statistics pandas data visualization,business data science analytics,Data Analyst
+22,Bachelor's,storytelling social media editing,communications creativity media marketing,Content Strategist
+32,Master's,computer vision research natural language processing paper writing python deep learning,technology innovation,AI Researcher
+23,Master's,python siem penetration testing,digital forensics cybersecurity,Cybersecurity Analyst
+40,PhD,agile scrum communication,management team collaboration business leadership,Project Manager
+34,PhD,firewalls python network security vulnerability assessment ethical hacking,cybersecurity digital forensics technology privacy,Cybersecurity Analyst
+20,PhD,tensorflow python research statistics deep learning,academia innovation technology,AI Researcher
+27,Bachelor's,analytics social media content planning wordpress content writing editing,media creativity,Content Strategist
+26,Master's,c iot c++ microcontrollers pcb design hardware programming,hardware iot,Embedded Systems Engineer
+29,Master's,ci/cd aws google cloud networking terraform cloud architecture,automation technology engineering cloud computing,Cloud Engineer
+26,Bachelor's,content writing storytelling wordpress,writing marketing media communications,Content Strategist
+39,Master's,python data analysis deep learning numpy statistics,data science research technology artificial intelligence,Data Scientist
+29,PhD,kubernetes azure aws ci/cd networking,technology cloud computing infrastructure,Cloud Engineer
+33,Bachelor's,pytorch bert transformers,research linguistics,NLP Engineer
+24,Bachelor's,git html docker mongodb,web development problem solving entrepreneurship,Full Stack Developer
+19,Bachelor's,react html sql css rest api,technology entrepreneurship,Full Stack Developer
+23,Master's,css figma sketch user research,creativity psychology design,UI/UX Designer
+18,PhD,stakeholder management data analysis process modeling,strategy analytics problem solving,Business Analyst
+30,Bachelor's,html responsive design webpack,web development creative coding,Frontend Developer
+22,Master's,natural language processing deep learning huggingface text classification,research linguistics artificial intelligence technology,NLP Engineer
+24,Bachelor's,sql power bi stakeholder management agile documentation requirements gathering,management problem solving strategy,Business Analyst
+34,Bachelor's,editing marketing storytelling,media writing communications,Content Strategist
+40,Master's,opencv python pytorch,technology photography,Computer Vision Engineer
+25,Bachelor's,cryptography penetration testing network security,privacy problem solving,Cybersecurity Analyst
+24,Bachelor's,business intelligence agile excel sql,analytics business problem solving management,Business Analyst
+25,Bachelor's,marketing automation content marketing data analysis branding,business social media marketing,Digital Marketer
+19,Master's,pcb design rtos c++ embedded linux assembly,iot electronics hardware,Embedded Systems Engineer
+34,Master's,analytics editing content writing copywriting wordpress storytelling,writing creativity,Content Strategist
+33,Master's,business intelligence data visualization reporting excel,decision making finance business data science,Data Analyst
+31,Master's,ethical hacking python cryptography incident response linux,digital forensics privacy cybersecurity,Cybersecurity Analyst
+24,PhD,computer vision image processing deep learning convolutional neural networks pytorch,artificial intelligence technology,Computer Vision Engineer
+19,Master's,spring boot docker microservices sql java system design,technology software development engineering,Backend Developer
+22,PhD,serial communication pcb design embedded linux,automation engineering electronics,Embedded Systems Engineer
+27,Bachelor's,sql java python rest api docker,engineering software development technology,Backend Developer
+27,Master's,scikit-learn machine learning pytorch feature engineering,automation software engineering research,Machine Learning Engineer
+40,Bachelor's,research pytorch mathematics natural language processing paper writing,technology artificial intelligence innovation research,AI Researcher
+24,Bachelor's,azure google cloud kubernetes,engineering infrastructure cloud computing technology,Cloud Engineer
+24,Bachelor's,css wireframing usability testing prototyping user research,design technology,UI/UX Designer
+32,Master's,azure ci/cd cloud architecture aws linux,cloud computing infrastructure automation,Cloud Engineer
+24,PhD,statistics tensorflow mathematics,technology artificial intelligence academia innovation,AI Researcher
+27,Bachelor's,power bi sql documentation,management problem solving analytics strategy,Business Analyst
+39,PhD,monitoring kubernetes ci/cd aws docker ansible,infrastructure automation system reliability,DevOps Engineer
+35,Bachelor's,spark kafka data warehousing sql hadoop python,big data technology,Data Engineer
+37,Master's,siem ethical hacking firewalls,technology privacy cybersecurity,Cybersecurity Analyst
+39,Master's,python spacy huggingface transformers pytorch,research artificial intelligence,NLP Engineer
+28,Bachelor's,siem network security python incident response,technology digital forensics cybersecurity privacy,Cybersecurity Analyst
+40,Master's,figma usability testing ui design wireframing,psychology user experience design creativity,UI/UX Designer
+27,Bachelor's,rest api react mongodb html,entrepreneurship problem solving web development,Full Stack Developer
+20,Master's,shell scripting aws terraform ansible docker,automation technology infrastructure system reliability,DevOps Engineer
+38,Bachelor's,deep learning data visualization data analysis sql machine learning,technology data science,Data Scientist
+21,PhD,ci/cd linux shell scripting docker,automation engineering infrastructure,DevOps Engineer
+36,Master's,agile communication stakeholder management leadership budgeting documentation,strategy business,Project Manager
+31,PhD,reporting power bi sql,business decision making analytics,Data Analyst
+39,Master's,branding marketing automation content marketing ppc copywriting,marketing communications,Digital Marketer
+19,PhD,data analysis branding social media marketing ppc seo,marketing creativity communications social media,Digital Marketer
+27,Master's,deep learning computer vision pytorch statistics,research innovation,AI Researcher
+40,Bachelor's,power bi business intelligence python pandas,business analytics,Data Analyst
+39,Master's,mathematics python deep learning,technology research artificial intelligence,AI Researcher
+22,Master's,object detection data augmentation opencv computer vision,computer vision photography,Computer Vision Engineer
+19,PhD,ethical hacking siem firewalls incident response network security,privacy digital forensics,Cybersecurity Analyst
+40,Bachelor's,ci/cd scikit-learn feature engineering,software engineering artificial intelligence,Machine Learning Engineer
+18,Bachelor's,storytelling marketing content writing editing content planning seo,media communications marketing creativity,Content Strategist
+25,Bachelor's,spring boot nodejs python java,problem solving technology,Backend Developer
+26,PhD,c pcb design rtos embedded linux,hardware engineering electronics iot,Embedded Systems Engineer
+26,Master's,etl data pipelines sql,analytics data engineering technology,Data Engineer
+36,Master's,html webpack responsive design react typescript,web development design,Frontend Developer
+31,Bachelor's,model deployment mlops docker scikit-learn machine learning deep learning,research technology automation,Machine Learning Engineer
+25,Master's,paper writing mathematics computer vision research tensorflow,research innovation artificial intelligence academia,AI Researcher
+40,Master's,react javascript rest api,problem solving web development software engineering technology,Full Stack Developer
+33,PhD,branding scrum communication,strategy team collaboration,Project Manager
+24,Master's,nodejs rest api css javascript html,problem solving entrepreneurship web development,Full Stack Developer
+30,Bachelor's,spark sql airflow hadoop,big data infrastructure data engineering analytics,Data Engineer
+34,Bachelor's,cryptography vulnerability assessment siem,technology privacy,Cybersecurity Analyst
+28,Bachelor's,usability testing adobe xd wireframing css user research,design user experience,UI/UX Designer
+34,Bachelor's,image processing opencv deep learning data augmentation computer vision,photography technology,Computer Vision Engineer
+20,Bachelor's,linux ethical hacking vulnerability assessment siem,digital forensics problem solving,Cybersecurity Analyst
+29,PhD,css html react,web development software engineering,Full Stack Developer
+18,PhD,kafka spark data pipelines python,data engineering analytics technology,Data Engineer
+38,Bachelor's,deep learning pytorch computer vision natural language processing statistics,artificial intelligence research,AI Researcher
+32,Master's,sql pandas machine learning scikit-learn numpy,technology analytics artificial intelligence,Data Scientist
+39,Bachelor's,ethical hacking penetration testing siem network security,cybersecurity technology privacy digital forensics,Cybersecurity Analyst
+24,Bachelor's,microservices python java,problem solving system architecture engineering,Backend Developer
+39,PhD,project planning communication agile risk management,team collaboration management,Project Manager
+27,Master's,mathematics deep learning pytorch statistics,artificial intelligence research academia,AI Researcher
+19,Bachelor's,serial communication rtos iot hardware programming c,engineering electronics hardware iot,Embedded Systems Engineer
+18,Master's,pytorch tensorflow natural language processing,academia artificial intelligence,AI Researcher
+20,Master's,siem python penetration testing ethical hacking linux vulnerability assessment,cybersecurity privacy technology digital forensics,Cybersecurity Analyst
+28,Bachelor's,sql airflow data pipelines data warehousing kafka hadoop,technology big data data engineering infrastructure,Data Engineer
+32,Master's,figma css wireframing,technology psychology creativity,UI/UX Designer
+27,PhD,cryptography firewalls incident response,problem solving privacy digital forensics,Cybersecurity Analyst
+20,Bachelor's,scikit-learn mlops tensorflow,software engineering technology,Machine Learning Engineer
+26,Bachelor's,python sql hadoop data warehousing kafka,big data technology,Data Engineer
+36,Bachelor's,kubernetes google cloud linux ci/cd cloud architecture,infrastructure engineering technology,Cloud Engineer
+19,Master's,python microservices rest api nodejs,system architecture engineering software development,Backend Developer
+28,Master's,nodejs docker spring boot,software development system architecture technology,Backend Developer
+35,Bachelor's,computer vision convolutional neural networks opencv deep learning,computer vision technology,Computer Vision Engineer
+30,Master's,paper writing mathematics tensorflow,artificial intelligence technology,AI Researcher
+18,Bachelor's,editing social media marketing storytelling analytics,media creativity,Content Strategist
+23,Bachelor's,copywriting marketing automation data analysis,marketing social media,Digital Marketer
+37,Master's,pytorch opencv image processing convolutional neural networks,research computer vision,Computer Vision Engineer
+30,Bachelor's,system design databases sql docker nodejs microservices,system architecture software development problem solving technology,Backend Developer
+25,Bachelor's,python deep learning sql statistics scikit-learn,research artificial intelligence,Data Scientist
+34,Bachelor's,feature engineering python tensorflow pytorch,software engineering research,Machine Learning Engineer
+19,Bachelor's,huggingface text classification bert,research technology artificial intelligence language,NLP Engineer
+22,Bachelor's,azure google cloud networking terraform,engineering infrastructure cloud computing,Cloud Engineer
+25,Bachelor's,firebase android flutter,mobile technology technology,Mobile Developer
+24,Master's,kafka cloud platforms airflow sql hadoop,technology infrastructure analytics data engineering,Data Engineer
+21,Master's,wordpress editing copywriting content planning,media creativity communications,Content Strategist
+21,Bachelor's,cryptography linux python siem,privacy technology,Cybersecurity Analyst
+19,Bachelor's,reporting statistics tableau excel,finance decision making,Data Analyst
+20,PhD,sql pandas machine learning deep learning data analysis,analytics research technology artificial intelligence,Data Scientist
+26,PhD,ui design prototyping design thinking wireframing css,technology user experience,UI/UX Designer
+27,Bachelor's,usability testing wireframing adobe xd,design creativity technology,UI/UX Designer
+39,PhD,ppc google analytics social media marketing content marketing seo,business creativity social media,Digital Marketer
+40,Bachelor's,airflow data pipelines cloud platforms,technology big data analytics infrastructure,Data Engineer
+20,Bachelor's,kubernetes ci/cd monitoring shell scripting linux git,infrastructure system reliability,DevOps Engineer
+31,Master's,sql requirements gathering process modeling,management problem solving business,Business Analyst
+32,Bachelor's,pcb design microcontrollers hardware programming,iot engineering,Embedded Systems Engineer
+29,Bachelor's,terraform aws shell scripting linux ansible ci/cd,system reliability automation technology infrastructure,DevOps Engineer
+27,PhD,tableau excel sql reporting,data science analytics,Data Analyst
+20,Bachelor's,webpack responsive design figma typescript,user experience web development creative coding,Frontend Developer
+27,Master's,seo ppc marketing automation copywriting social media marketing google analytics,marketing communications creativity business,Digital Marketer
+30,Bachelor's,spark cloud platforms airflow python kafka etl,analytics data engineering,Data Engineer
+22,Master's,data visualization reporting sql python statistics,data science business,Data Analyst
+34,Bachelor's,docker git terraform kubernetes linux,engineering system reliability technology infrastructure,DevOps Engineer
+20,Master's,data analysis seo content marketing,social media business,Digital Marketer
+19,Master's,paper writing pytorch statistics natural language processing computer vision python,academia research,AI Researcher
+22,Bachelor's,deep learning data visualization data analysis,artificial intelligence analytics research technology,Data Scientist
+38,Master's,python tensorflow image processing object detection pytorch,technology computer vision photography,Computer Vision Engineer
+22,Bachelor's,documentation stakeholder management process modeling business intelligence agile sql,business management,Business Analyst
+37,Bachelor's,networking aws google cloud cloud architecture terraform,cloud computing technology,Cloud Engineer
+18,Bachelor's,model deployment mlops pytorch,automation artificial intelligence software engineering,Machine Learning Engineer
+34,Bachelor's,vue webpack figma ui development,web development technology creative coding,Frontend Developer
+36,Bachelor's,jira budgeting project planning stakeholder management scrum,strategy business team collaboration,Project Manager
+28,Master's,figma vue webpack typescript ui development,user experience creative coding web development design,Frontend Developer
+19,PhD,nltk huggingface natural language processing python transformers spacy,linguistics language research,NLP Engineer
+20,Bachelor's,kubernetes shell scripting docker aws linux terraform,technology infrastructure,DevOps Engineer
+31,Bachelor's,text classification nltk spacy deep learning natural language processing,language linguistics artificial intelligence,NLP Engineer
+23,Bachelor's,data pipelines kafka data warehousing cloud platforms,technology analytics data engineering big data,Data Engineer
+20,Master's,bert nltk deep learning natural language processing text classification,language linguistics,NLP Engineer
+35,Master's,google analytics email marketing copywriting marketing automation,social media communications,Digital Marketer
+24,Bachelor's,excel agile documentation,analytics strategy problem solving,Business Analyst
+30,Bachelor's,ci/cd aws terraform docker,engineering technology cloud computing automation,Cloud Engineer
+19,Master's,transformers natural language processing spacy nltk text classification,technology artificial intelligence,NLP Engineer
+39,Bachelor's,huggingface spacy deep learning,language research artificial intelligence technology,NLP Engineer
+30,Bachelor's,tableau excel statistics business intelligence reporting sql,data science decision making finance,Data Analyst
+18,Bachelor's,aws ci/cd linux monitoring ansible,engineering system reliability automation technology,DevOps Engineer
+25,Master's,ui design usability testing sketch prototyping adobe xd,design psychology,UI/UX Designer
+34,Master's,opencv python image processing object detection convolutional neural networks,technology photography,Computer Vision Engineer
+30,Master's,data warehousing spark airflow hadoop data pipelines,big data infrastructure,Data Engineer
+30,PhD,ci/cd ethical hacking aws shell scripting linux,automation technology,DevOps Engineer
+33,PhD,git linux mobile ui ansible,automation infrastructure engineering technology,DevOps Engineer
+28,Master's,feature engineering python machine learning,technology software engineering,Machine Learning Engineer
+39,Master's,communication documentation agile stakeholder management leadership scrum,business team collaboration strategy,Project Manager
+39,Bachelor's,text classification deep learning pytorch,linguistics technology language,NLP Engineer
+26,Bachelor's,python incident response vulnerability assessment network security,problem solving cybersecurity technology,Cybersecurity Analyst
+20,Master's,data augmentation image processing convolutional neural networks object detection,photography computer vision research artificial intelligence,Computer Vision Engineer
+26,Master's,mobile ui firebase ios react native,design technology user experience app development,Mobile Developer
+34,Master's,deep learning scikit-learn docker tensorflow feature engineering pytorch,research software engineering artificial intelligence automation,Machine Learning Engineer
+21,Bachelor's,shell scripting ansible terraform monitoring,automation infrastructure technology engineering,DevOps Engineer
+23,Bachelor's,react native flutter java kotlin swift,technology user experience app development design,Mobile Developer
+27,Bachelor's,kotlin firebase rest api swift,mobile technology technology,Mobile Developer
+25,Bachelor's,model deployment feature engineering machine learning,research automation artificial intelligence,Machine Learning Engineer
+40,PhD,excel analytics content planning editing seo,writing communications creativity,Content Strategist
+26,PhD,firewalls python vulnerability assessment siem linux,digital forensics cybersecurity privacy problem solving,Cybersecurity Analyst
+36,Bachelor's,pytorch transformers text classification nltk deep learning,artificial intelligence technology,NLP Engineer
+26,Master's,python data augmentation tensorflow computer vision,research photography,Computer Vision Engineer
+38,Master's,data warehousing kafka spark,big data data engineering,Data Engineer
+34,Bachelor's,pandas sql scikit-learn data analysis numpy data visualization,artificial intelligence data science,Data Scientist
+20,PhD,shell scripting aws kubernetes docker ansible linux,system reliability infrastructure engineering automation,DevOps Engineer
+20,Master's,data analysis social media marketing ppc google analytics marketing automation email marketing,creativity social media communications,Digital Marketer
+40,Master's,docker aws google cloud cloud architecture,automation infrastructure,Cloud Engineer
+33,Bachelor's,machine learning sql data analysis scikit-learn,analytics data science,Data Scientist
+24,Master's,statistics deep learning mathematics python,academia artificial intelligence research,AI Researcher
+21,Master's,shell scripting docker ansible monitoring terraform,system reliability automation infrastructure technology,DevOps Engineer
+22,PhD,kubernetes linux google cloud,automation cloud computing infrastructure,Cloud Engineer
+30,Master's,react webpack typescript figma html,technology web development,Frontend Developer
+30,Bachelor's,agile power bi stakeholder management requirements gathering documentation,problem solving business strategy analytics,Business Analyst
+27,Bachelor's,sql tableau business intelligence python,analytics business decision making finance,Data Analyst
+23,Bachelor's,css usability testing user research,user experience creativity,UI/UX Designer
+33,Master's,google cloud docker kubernetes cloud architecture ci/cd,technology cloud computing,Cloud Engineer
+26,PhD,agile jira communication,strategy management business leadership,Project Manager
+27,PhD,prototyping usability testing sketch,creativity user experience psychology,UI/UX Designer
+26,Master's,adobe xd usability testing css design thinking wireframing prototyping,user experience technology creativity design,UI/UX Designer
+29,Bachelor's,pcb design assembly embedded linux c c++ hardware programming,hardware engineering electronics automation,Embedded Systems Engineer
+24,Master's,marketing editing social media content writing,writing marketing media communications,Content Strategist
+35,PhD,hardware programming c assembly c++ embedded linux,hardware automation electronics,Embedded Systems Engineer
+28,Master's,serial communication c assembly,electronics engineering,Embedded Systems Engineer
+20,Bachelor's,html responsive design vue typescript webpack figma,creative coding design technology,Frontend Developer
+35,Bachelor's,css rest api git sql docker react,entrepreneurship web development problem solving,Full Stack Developer
+19,Bachelor's,machine learning scikit-learn python statistics sql deep learning,analytics research technology data science,Data Scientist
+21,Master's,python image processing computer vision pytorch object detection,artificial intelligence photography research,Computer Vision Engineer
+26,Master's,javascript react git css nodejs,technology entrepreneurship problem solving,Full Stack Developer
+33,Bachelor's,android java rest api,mobile technology design technology,Mobile Developer
+40,PhD,embedded linux c serial communication microcontrollers assembly hardware programming,engineering hardware iot automation,Embedded Systems Engineer
+34,Bachelor's,requirements gathering agile sql power bi,problem solving analytics business management,Business Analyst
+21,Master's,databases python system design,software development problem solving engineering,Backend Developer
+24,Master's,python research pytorch paper writing,academia research artificial intelligence,AI Researcher
+28,Master's,mongodb mlops scikit-learn machine learning,technology research,Machine Learning Engineer
+33,Bachelor's,incident response siem cryptography ethical hacking python,problem solving privacy technology cybersecurity,Cybersecurity Analyst
+30,Bachelor's,pandas numpy sql,technology artificial intelligence data science,Data Scientist
+20,Master's,react javascript rest api docker css,software engineering web development technology problem solving,Full Stack Developer
+40,Master's,seo email marketing copywriting,business marketing communications,Digital Marketer
+26,Master's,scrum documentation agile jira stakeholder management communication,leadership business team collaboration,Project Manager
+35,Bachelor's,risk management scrum project planning leadership,team collaboration leadership,Project Manager
+30,Bachelor's,ios kotlin android java,app development technology design user experience,Mobile Developer
+23,Master's,data pipelines hadoop sql data warehousing etl,analytics big data technology,Data Engineer
+22,Master's,nodejs react git rest api sql css,technology entrepreneurship problem solving web development,Full Stack Developer
+32,Master's,excel python pandas tableau,finance analytics business,Data Analyst
+20,PhD,data pipelines cloud platforms airflow etl sql kafka,data engineering analytics infrastructure,Data Engineer
+25,Master's,spring boot microservices nodejs java,software development system architecture,Backend Developer
+19,Bachelor's,nodejs system design java databases python spring boot,software development problem solving,Backend Developer
+23,PhD,object detection agile data augmentation python deep learning,research artificial intelligence,Computer Vision Engineer
+35,PhD,deep learning image processing opencv pytorch python,photography research,Computer Vision Engineer
+29,Bachelor's,model deployment deep learning python,research technology software engineering artificial intelligence,Machine Learning Engineer
+40,PhD,tensorflow computer vision object detection image processing opencv python,computer vision research,Computer Vision Engineer
+20,PhD,typescript model deployment scikit-learn tensorflow feature engineering,automation research technology software engineering,Machine Learning Engineer
+27,Bachelor's,deep learning text classification natural language processing nltk transformers,linguistics technology language,NLP Engineer
+22,Bachelor's,figma html javascript ui development react css,creative coding user experience technology web development,Frontend Developer
+22,Master's,adobe xd prototyping wireframing design thinking sketch usability testing,technology creativity psychology,UI/UX Designer
+23,PhD,deep learning scikit-learn python feature engineering machine learning,artificial intelligence technology research,Machine Learning Engineer
+35,Bachelor's,tableau tensorflow pandas business intelligence statistics reporting,finance data science,Data Analyst
+32,PhD,business intelligence data analysis sql stakeholder management agile power bi,problem solving analytics business,Business Analyst
+32,Master's,computer vision python mathematics tensorflow pytorch deep learning,artificial intelligence academia,AI Researcher
+37,Bachelor's,model deployment python machine learning mlops deep learning,research software engineering,Machine Learning Engineer
+19,Master's,microcontrollers c++ rtos image processing assembly,iot electronics automation hardware,Embedded Systems Engineer
+26,PhD,networking docker aws azure linux kubernetes,engineering cloud computing,Cloud Engineer
+20,Bachelor's,statistics sql business intelligence data visualization pandas tableau,data science finance,Data Analyst
+37,Bachelor's,prototyping design thinking css usability testing figma user research,creativity psychology,UI/UX Designer
+26,Master's,databases system design nodejs,technology engineering,Backend Developer
+33,Bachelor's,ui development react figma typescript webpack,web development technology user experience,Frontend Developer
+25,PhD,microservices nodejs sql spring boot docker,technology problem solving software development system architecture,Backend Developer
+32,Bachelor's,network security ethical hacking firewalls penetration testing siem,technology problem solving cybersecurity,Cybersecurity Analyst
+36,PhD,marketing content planning copywriting content writing seo editing,creativity media writing marketing,Content Strategist
+24,Master's,cloud architecture docker aws,infrastructure automation,Cloud Engineer
+31,Bachelor's,python deep learning tensorflow model deployment mlops feature engineering,automation software engineering,Machine Learning Engineer
+25,Bachelor's,rest api flutter ios swift react native firebase,app development technology,Mobile Developer
+25,Bachelor's,jira communication agile,business team collaboration,Project Manager
+26,Master's,marketing automation google analytics email marketing copywriting data analysis ppc,creativity business communications,Digital Marketer
+23,Bachelor's,siem network security cryptography vulnerability assessment penetration testing firewalls,cybersecurity digital forensics problem solving privacy,Cybersecurity Analyst
+34,Bachelor's,ios flutter rest api mobile ui firebase,technology mobile technology app development design,Mobile Developer
+31,Master's,agile power bi business intelligence stakeholder management,analytics management strategy,Business Analyst
+38,Bachelor's,spark data pipelines cloud platforms,big data technology,Data Engineer
+24,Bachelor's,bert huggingface natural language processing,research artificial intelligence technology,NLP Engineer
+20,PhD,natural language processing tensorflow computer vision paper writing mathematics research,innovation technology,AI Researcher
+22,Bachelor's,text classification pytorch feature engineering docker tensorflow,research artificial intelligence technology automation,Machine Learning Engineer
+21,Master's,power bi statistics sql,business analytics,Data Analyst
+19,Bachelor's,ppc content marketing data analysis google analytics,social media business,Digital Marketer
+37,Master's,data pipelines etl data warehousing spark airflow sql,technology analytics big data data engineering,Data Engineer
+26,Master's,numpy statistics deep learning data visualization machine learning scikit-learn,artificial intelligence research analytics,Data Scientist
+27,Bachelor's,swift java react native firebase,app development user experience design mobile technology,Mobile Developer
+35,Bachelor's,agile requirements gathering excel sql,management problem solving strategy,Business Analyst
+40,Master's,etl data warehousing sql,technology big data data engineering analytics,Data Engineer
+26,PhD,android swift copywriting kotlin rest api flutter,user experience technology mobile technology,Mobile Developer
+22,Bachelor's,pytorch computer vision deep learning,research artificial intelligence technology,Computer Vision Engineer
+18,Master's,object detection python image processing,photography computer vision technology research,Computer Vision Engineer
+33,Bachelor's,python model deployment tensorflow mlops docker deep learning,software engineering automation technology,Machine Learning Engineer
+20,Bachelor's,rest api java mobile ui,design mobile technology user experience,Mobile Developer
+31,PhD,docker monitoring ansible,engineering infrastructure system reliability,DevOps Engineer
+30,Master's,figma ui development javascript css,technology web development creative coding,Frontend Developer
+35,Bachelor's,rest api mobile ui swift flutter react native,mobile technology app development technology design,Mobile Developer
+32,Bachelor's,sql data analysis deep learning scikit-learn python,research technology artificial intelligence data science,Data Scientist
+38,Master's,sql css rest api mongodb react git,entrepreneurship technology web development problem solving,Full Stack Developer
+33,Master's,social media marketing branding copywriting content marketing,marketing social media communications,Digital Marketer
+30,Bachelor's,python system design docker,engineering system architecture software development problem solving,Backend Developer
+20,Bachelor's,deep learning docker mlops python model deployment machine learning,research technology automation software engineering,Machine Learning Engineer
+37,Master's,data analysis pandas deep learning sql,research data science,Data Scientist
+29,Bachelor's,kotlin react native android flutter rest api firebase,technology user experience app development mobile technology,Mobile Developer
+37,Master's,data warehousing cloud platforms usability testing,technology big data analytics data engineering,Data Engineer
+18,Bachelor's,statistics data analysis scikit-learn data visualization deep learning,analytics technology research artificial intelligence,Data Scientist
+25,Bachelor's,javascript vue react responsive design,user experience web development,Frontend Developer
+40,PhD,jira scrum risk management leadership agile,management business leadership strategy,Project Manager
+35,Bachelor's,python power bi data visualization,finance data science,Data Analyst
+37,Master's,sql etl cloud platforms kafka spark data warehousing,analytics big data technology infrastructure,Data Engineer
+23,Bachelor's,process modeling agile power bi,analytics management,Business Analyst
+18,Bachelor's,pytorch transformers nltk,artificial intelligence language linguistics research,NLP Engineer
+21,Bachelor's,prototyping css adobe xd design thinking user research,technology creativity user experience design,UI/UX Designer
+24,Bachelor's,nodejs mongodb css,web development entrepreneurship problem solving,Full Stack Developer
+23,Bachelor's,sql docker html,entrepreneurship technology problem solving web development,Full Stack Developer
+40,PhD,transformers python deep learning,research technology,NLP Engineer
+24,Bachelor's,javascript rest api sql docker git react,software engineering problem solving,Full Stack Developer
+29,Master's,natural language processing python research,technology innovation,AI Researcher
+23,Bachelor's,statistics paper writing deep learning python pytorch mathematics,technology artificial intelligence,AI Researcher
+24,Master's,assembly iot rtos pcb design,iot automation electronics engineering,Embedded Systems Engineer
+36,Bachelor's,terraform linux networking cloud architecture docker,automation engineering,Cloud Engineer
+37,Master's,ui design wireframing user research usability testing,psychology user experience design technology,UI/UX Designer
+24,Bachelor's,sketch ui design design thinking,user experience creativity psychology design,UI/UX Designer
+40,Bachelor's,statistics deep learning data analysis,research artificial intelligence data science technology,Data Scientist
+26,Bachelor's,ppc content marketing social media marketing,communications business creativity social media,Digital Marketer
+19,Master's,requirements gathering stakeholder management agile,analytics strategy problem solving,Business Analyst
+38,Bachelor's,css react mongodb sql,problem solving web development technology entrepreneurship,Full Stack Developer
+31,Bachelor's,marketing seo storytelling analytics,creativity media,Content Strategist
+25,Bachelor's,pytorch paper writing research tensorflow computer vision deep learning,artificial intelligence research technology,AI Researcher
+18,PhD,excel statistics tableau,finance decision making business,Data Analyst
+20,Bachelor's,flutter mobile ui ios rest api,user experience design technology,Mobile Developer
+27,Master's,monitoring shell scripting git,infrastructure technology,DevOps Engineer
+25,Bachelor's,content writing seo copywriting,creativity communications marketing writing,Content Strategist
+31,Bachelor's,data augmentation deep learning image processing computer vision object detection,technology research computer vision artificial intelligence,Computer Vision Engineer
+19,Master's,react docker javascript rest api mongodb,technology problem solving software engineering,Full Stack Developer
+38,Bachelor's,numpy deep learning sql scikit-learn statistics,data science technology,Data Scientist
+33,Bachelor's,sketch ui design css design thinking prototyping,design psychology creativity,UI/UX Designer
+36,Master's,statistics machine learning deep learning python,analytics technology,Data Scientist
+39,Bachelor's,sql data analysis excel,management business,Business Analyst
+18,Bachelor's,network security firewalls vulnerability assessment cryptography ethical hacking incident response,problem solving privacy,Cybersecurity Analyst
+40,Master's,excel sql business intelligence stakeholder management,strategy management,Business Analyst
+26,Bachelor's,hardware programming pcb design serial communication,hardware iot,Embedded Systems Engineer
+31,Master's,aws terraform shell scripting monitoring git,automation infrastructure,DevOps Engineer
+39,PhD,documentation sql data analysis business intelligence agile excel,business strategy,Business Analyst
+23,PhD,network security python cryptography ethical hacking,technology digital forensics,Cybersecurity Analyst
+19,Bachelor's,marketing automation data analysis email marketing copywriting ppc social media marketing,creativity marketing,Digital Marketer
+26,Bachelor's,c++ iot serial communication,electronics engineering automation hardware,Embedded Systems Engineer
+27,Bachelor's,spacy natural language processing huggingface pytorch bert python,research artificial intelligence technology,NLP Engineer
+23,Bachelor's,deep learning data visualization python machine learning sql,data science artificial intelligence research,Data Scientist
+25,Master's,paper writing python mathematics,academia technology,AI Researcher
+36,Master's,css responsive design vue,creative coding design web development,Frontend Developer
+30,PhD,sql business intelligence requirements gathering process modeling,problem solving management strategy,Business Analyst
+22,Master's,communication documentation project planning jira leadership,leadership strategy business,Project Manager
+20,Master's,hardware programming embedded linux c++ iot,automation electronics engineering,Embedded Systems Engineer
+18,Bachelor's,requirements gathering excel sql documentation,strategy analytics,Business Analyst
+29,Master's,content writing copywriting marketing editing,marketing creativity media,Content Strategist
+27,Bachelor's,vulnerability assessment incident response cryptography linux network security,technology privacy cybersecurity,Cybersecurity Analyst
+34,PhD,deep learning research natural language processing computer vision mathematics,artificial intelligence technology innovation academia,AI Researcher
+31,Bachelor's,android flutter data visualization,design technology,Mobile Developer
+29,Bachelor's,prototyping design thinking user research wireframing css adobe xd,design creativity,UI/UX Designer
+24,Bachelor's,python nltk spacy transformers pytorch deep learning,research language,NLP Engineer
+34,Master's,typescript vue html webpack,design creative coding web development,Frontend Developer
+25,Master's,kotlin java flutter mobile ui,technology user experience,Mobile Developer
+38,Bachelor's,content planning analytics editing seo marketing content writing,marketing writing,Content Strategist
+21,Master's,figma ui design design thinking prototyping adobe xd css,psychology technology,UI/UX Designer
+39,Master's,text classification bert transformers deep learning nltk,linguistics technology artificial intelligence,NLP Engineer
+22,Bachelor's,ci/cd azure aws,technology cloud computing automation,Cloud Engineer
+21,Bachelor's,content planning storytelling marketing,media creativity,Content Strategist
+21,Bachelor's,content marketing marketing automation social media marketing ppc google analytics,social media marketing business communications,Digital Marketer
+29,PhD,process modeling agile data analysis,management strategy business,Business Analyst
+22,PhD,statistics scikit-learn deep learning,data science technology,Data Scientist
+23,PhD,computer vision python paper writing mathematics statistics pytorch,academia innovation technology artificial intelligence,AI Researcher
+34,Bachelor's,react rest api html mongodb,software engineering entrepreneurship technology problem solving,Full Stack Developer
+37,Master's,vue react ui development,creative coding web development technology user experience,Frontend Developer
+21,Master's,object detection opencv pytorch image processing,research computer vision artificial intelligence,Computer Vision Engineer
+25,Master's,copywriting storytelling analytics marketing social media,creativity media marketing writing,Content Strategist
+18,Bachelor's,docker system design java nodejs,engineering technology,Backend Developer
+24,PhD,model deployment pytorch feature engineering tensorflow mlops,software engineering automation technology research,Machine Learning Engineer
+23,PhD,editing analytics seo storytelling,communications media,Content Strategist
+34,Bachelor's,deep learning pytorch nltk,linguistics language research artificial intelligence,NLP Engineer
+21,Bachelor's,mobile ui kotlin flutter,app development design technology mobile technology,Mobile Developer
+36,Bachelor's,python system design java databases,technology system architecture engineering problem solving,Backend Developer
+38,Master's,css javascript nodejs html mongodb react,web development software engineering,Full Stack Developer
+24,Bachelor's,python vulnerability assessment cryptography firewalls,privacy problem solving digital forensics,Cybersecurity Analyst
+34,Master's,html css rest api,technology entrepreneurship,Full Stack Developer
+38,Bachelor's,c++ assembly serial communication embedded linux,iot electronics engineering automation,Embedded Systems Engineer
+22,Bachelor's,spark data warehousing sql etl cloud platforms,infrastructure technology data engineering,Data Engineer
+38,Bachelor's,email marketing branding data analysis ppc,social media marketing creativity,Digital Marketer
+28,Master's,social media seo editing content writing marketing,writing communications creativity marketing,Content Strategist
+34,PhD,ethical hacking linux siem python cryptography penetration testing,problem solving privacy technology cybersecurity,Cybersecurity Analyst
+30,PhD,kubernetes linux monitoring aws git,automation technology engineering infrastructure,DevOps Engineer
+40,Bachelor's,numpy machine learning python data visualization deep learning data analysis,artificial intelligence research,Data Scientist
+36,Master's,reporting statistics pandas power bi,business decision making analytics data science,Data Analyst
+27,Bachelor's,pytorch paper writing deep learning statistics,technology research artificial intelligence academia,AI Researcher
+34,Bachelor's,c++ iot hardware programming,hardware automation engineering,Embedded Systems Engineer
+31,Master's,pytorch research paper writing,academia research innovation technology,AI Researcher
+26,Bachelor's,deep learning scikit-learn data visualization statistics python,data science analytics,Data Scientist
+25,Master's,vulnerability assessment penetration testing ethical hacking python firewalls linux,technology privacy problem solving digital forensics,Cybersecurity Analyst
+33,Bachelor's,numpy pandas data analysis sql statistics,research technology analytics,Data Scientist
+29,Master's,terraform spring boot nodejs system design databases docker,problem solving system architecture software development technology,Backend Developer
+20,Bachelor's,ci/cd aws linux,infrastructure automation,Cloud Engineer
+38,Master's,firewalls siem python,privacy cybersecurity digital forensics technology,Cybersecurity Analyst
+21,Master's,kafka airflow hadoop sql data pipelines python,infrastructure analytics data engineering technology,Data Engineer
+33,Bachelor's,python object detection deep learning,computer vision technology artificial intelligence research,Computer Vision Engineer
+31,Bachelor's,business intelligence process modeling data analysis requirements gathering agile,analytics management problem solving business,Business Analyst
+34,Bachelor's,python kafka hadoop,technology big data data engineering,Data Engineer
+24,Bachelor's,python ethical hacking penetration testing,privacy cybersecurity problem solving,Cybersecurity Analyst
+35,Bachelor's,scrum risk management leadership communication stakeholder management,leadership business strategy,Project Manager
+24,Bachelor's,html responsive design figma css javascript ui development,technology creative coding design,Frontend Developer
+21,Bachelor's,serial communication assembly hardware programming embedded linux c,electronics automation,Embedded Systems Engineer
+34,Bachelor's,agile business intelligence process modeling power bi documentation,analytics management strategy business,Business Analyst
+24,Bachelor's,pytorch tensorflow computer vision,technology computer vision artificial intelligence,Computer Vision Engineer
+40,PhD,sql microservices python spring boot,problem solving system architecture engineering technology,Backend Developer
+20,Master's,python data analysis statistics scikit-learn,artificial intelligence research analytics data science,Data Scientist
+18,Bachelor's,ui development webpack javascript responsive design,web development technology user experience,Frontend Developer
+20,Bachelor's,content writing analytics seo content planning storytelling,creativity marketing,Content Strategist
+27,Master's,tableau pandas statistics python reporting excel,data science decision making,Data Analyst
+22,Bachelor's,content writing wordpress content planning,creativity marketing,Content Strategist
+39,Master's,git linux terraform kubernetes docker ci/cd,engineering technology system reliability,DevOps Engineer
+19,PhD,databases microservices rest api system design docker python,problem solving software development,Backend Developer
+36,Bachelor's,deep learning data analysis scikit-learn data visualization,technology analytics,Data Scientist
+21,Bachelor's,user research sketch figma css adobe xd,user experience creativity psychology technology,UI/UX Designer
+24,Master's,marketing automation data visualization ppc seo copywriting branding,marketing creativity social media,Digital Marketer
+40,PhD,content writing javascript social media seo,communications marketing,Content Strategist
+26,Master's,terraform adobe xd kubernetes shell scripting monitoring linux,technology infrastructure engineering,DevOps Engineer
+20,Master's,business intelligence python tableau,business analytics,Data Analyst
+37,Bachelor's,bert text classification python pytorch,technology language,NLP Engineer
+34,PhD,editing marketing copywriting,marketing creativity,Content Strategist
+36,PhD,design thinking prototyping usability testing figma user research sketch,design user experience,UI/UX Designer
+32,Bachelor's,pandas sql data analysis numpy scikit-learn,artificial intelligence research analytics,Data Scientist
+30,PhD,sql spark data warehousing kafka,infrastructure analytics big data data engineering,Data Engineer
+31,Bachelor's,social media marketing content writing copywriting,media communications creativity writing,Content Strategist
+30,Bachelor's,java sql microservices spring boot system design nodejs,software development system architecture,Backend Developer
+20,Bachelor's,communication jira project planning stakeholder management agile leadership,management strategy business,Project Manager
+40,Master's,scrum agile stakeholder management communication,leadership business,Project Manager
+34,Bachelor's,iot serial communication microcontrollers rtos,iot automation,Embedded Systems Engineer
+25,Bachelor's,ethical hacking pandas firewalls,problem solving cybersecurity technology,Cybersecurity Analyst
+18,Master's,pytorch object detection tensorflow python deep learning,photography technology research artificial intelligence,Computer Vision Engineer
+24,Master's,cloud platforms etl python risk management airflow sql,big data data engineering analytics technology,Data Engineer
+34,Master's,content planning content writing storytelling,writing media marketing creativity,Content Strategist
+21,PhD,project planning agile communication,strategy management business,Project Manager
+32,PhD,process modeling excel power bi documentation,business analytics management problem solving,Business Analyst
+27,Bachelor's,google cloud aws networking,technology automation infrastructure engineering,Cloud Engineer
+36,Bachelor's,python pytorch computer vision,artificial intelligence innovation,AI Researcher
+29,Master's,wireframing usability testing figma ui design,psychology technology creativity,UI/UX Designer
+32,Master's,model deployment storytelling seo,marketing media,Content Strategist
+38,Master's,statistics computer vision mathematics deep learning paper writing,technology academia,AI Researcher
+28,Master's,process modeling excel business intelligence documentation,problem solving business management analytics,Business Analyst
+27,Bachelor's,css sketch usability testing ui design adobe xd,psychology user experience,UI/UX Designer
+31,Bachelor's,data pipelines kafka python etl,big data analytics,Data Engineer
+25,Bachelor's,text classification transformers deep learning python spacy,research artificial intelligence linguistics language,NLP Engineer
+34,Bachelor's,pytorch text classification python,artificial intelligence linguistics,NLP Engineer
+36,Master's,object detection deep learning tensorflow,artificial intelligence photography research,Computer Vision Engineer
+29,Bachelor's,content planning marketing editing,marketing media communications creativity,Content Strategist
+40,Bachelor's,sql statistics tensorflow research paper writing,technology artificial intelligence innovation research,AI Researcher
+31,Master's,data pipelines spark airflow python,technology infrastructure big data analytics,Data Engineer
+28,Master's,cloud platforms airflow ios spark kafka data warehousing,big data infrastructure analytics,Data Engineer
+38,Master's,incident response cryptography firewalls,cybersecurity technology,Cybersecurity Analyst
+22,Master's,model deployment deep learning mlops pytorch,software engineering technology research,Machine Learning Engineer
+34,Master's,python rest api microservices sql system design java,engineering problem solving,Backend Developer
+25,Master's,sql etl spark cloud platforms,big data data engineering analytics technology,Data Engineer
+19,Bachelor's,text classification bert natural language processing spacy,linguistics language research,NLP Engineer
+27,Bachelor's,pytorch deep learning machine learning scikit-learn docker,artificial intelligence automation research technology,Machine Learning Engineer
+27,PhD,power bi python reporting sql,analytics finance decision making business,Data Analyst
+37,Bachelor's,git kubernetes docker,system reliability infrastructure engineering,DevOps Engineer
+18,Bachelor's,mobile ui rest api ios swift java,technology app development,Mobile Developer
+28,Bachelor's,communication terraform azure cloud architecture google cloud,technology automation,Cloud Engineer
+19,Bachelor's,hardware programming assembly serial communication,hardware engineering,Embedded Systems Engineer
+28,Bachelor's,python data augmentation image processing object detection,computer vision technology research,Computer Vision Engineer
+33,Bachelor's,adobe xd prototyping wireframing sketch,user experience design psychology,UI/UX Designer
+18,Bachelor's,feature engineering docker scikit-learn,research automation software engineering,Machine Learning Engineer
+19,Bachelor's,data visualization statistics machine learning data analysis python numpy,research technology data science artificial intelligence,Data Scientist
+20,Bachelor's,paper writing statistics mathematics research,artificial intelligence technology research,AI Researcher
+31,Bachelor's,kubernetes ansible aws monitoring,technology automation,DevOps Engineer
+18,Master's,copywriting content planning seo,creativity media writing communications,Content Strategist
+36,Master's,java spring boot rest api python sql,technology software development,Backend Developer
+27,Bachelor's,communication documentation jira budgeting agile stakeholder management,management leadership strategy business,Project Manager
+22,PhD,kotlin flutter react native rest api java,user experience mobile technology app development technology,Mobile Developer
+31,Master's,communication scrum stakeholder management,team collaboration leadership,Project Manager
+27,Bachelor's,system design docker microservices rest api,engineering technology,Backend Developer
+37,Bachelor's,python data analysis deep learning,data science artificial intelligence,Data Scientist
+37,Bachelor's,paper writing natural language processing statistics pytorch,innovation artificial intelligence,AI Researcher
+31,Master's,scikit-learn statistics numpy,artificial intelligence analytics research,Data Scientist
+31,Master's,python transformers pandas excel,analytics decision making data science finance,Data Analyst
+40,Bachelor's,natural language processing rest api flutter mobile ui ios react native,app development user experience design mobile technology,Mobile Developer
+30,Bachelor's,html vue typescript figma webpack css,user experience technology,Frontend Developer
+30,Master's,javascript sql git docker,technology software engineering problem solving web development,Full Stack Developer
+32,Bachelor's,spacy pytorch python text classification huggingface nltk,artificial intelligence technology linguistics,NLP Engineer
+30,Bachelor's,pcb design serial communication hardware programming c microcontrollers c++,electronics iot engineering hardware,Embedded Systems Engineer
+37,Master's,text classification nltk bert spacy natural language processing,research artificial intelligence linguistics,NLP Engineer
+18,Bachelor's,terraform networking linux aws docker kubernetes,infrastructure automation,Cloud Engineer
+29,Master's,rest api kotlin ios flutter java,user experience technology mobile technology design,Mobile Developer
+19,Master's,editing content planning wordpress marketing seo copywriting,creativity writing,Content Strategist
+21,PhD,assembly hardware programming c++,automation hardware electronics,Embedded Systems Engineer
+25,Master's,seo marketing social media content planning,marketing communications writing creativity,Content Strategist
+36,Bachelor's,css responsive design react ui development html,technology creative coding design user experience,Frontend Developer
+29,Bachelor's,react native kotlin swift mobile ui,app development user experience design mobile technology,Mobile Developer
+37,Bachelor's,ui development css vue typescript,web development user experience technology,Frontend Developer
+23,Bachelor's,airflow data warehousing hadoop,infrastructure analytics technology,Data Engineer
+38,PhD,linux docker aws,engineering infrastructure technology system reliability,DevOps Engineer
+18,Bachelor's,research mathematics tensorflow statistics,research academia innovation technology,AI Researcher
+32,Bachelor's,computer vision python opencv deep learning data augmentation convolutional neural networks,technology research computer vision,Computer Vision Engineer
+18,Bachelor's,python tableau power bi,decision making business analytics finance,Data Analyst
+34,Bachelor's,convolutional neural networks tensorflow deep learning pytorch image processing opencv,artificial intelligence photography computer vision technology,Computer Vision Engineer
+30,Master's,spark hadoop data pipelines,analytics data engineering big data technology,Data Engineer
+37,Bachelor's,copywriting branding power bi,social media marketing business communications,Digital Marketer
+19,Master's,mobile ui android ios react native flutter rest api,app development mobile technology,Mobile Developer
+36,PhD,analytics copywriting editing marketing,marketing communications writing creativity,Content Strategist
+36,PhD,editing content writing analytics content planning copywriting,media writing communications,Content Strategist
+29,PhD,linux cloud architecture networking azure,automation infrastructure cloud computing,Cloud Engineer
+36,Bachelor's,flutter rest api firebase kotlin android,design mobile technology app development,Mobile Developer
+29,Master's,pytorch object detection convolutional neural networks,computer vision photography technology,Computer Vision Engineer
+19,Bachelor's,deep learning data augmentation object detection pytorch image processing opencv,technology photography,Computer Vision Engineer
+21,Bachelor's,cryptography penetration testing incident response firewalls siem,technology problem solving,Cybersecurity Analyst
+40,Master's,business intelligence requirements gathering documentation,strategy analytics management,Business Analyst
+36,Bachelor's,wireframing design thinking prototyping,user experience technology,UI/UX Designer
+40,Master's,documentation stakeholder management project planning scrum leadership,leadership team collaboration management,Project Manager
+28,Bachelor's,tensorflow statistics natural language processing computer vision research mathematics,academia research innovation,AI Researcher
+32,Bachelor's,computer vision natural language processing mathematics research paper writing,technology artificial intelligence,AI Researcher
+22,Master's,storytelling content writing content planning,marketing communications,Content Strategist
+21,Master's,kafka data pipelines cloud platforms,technology infrastructure,Data Engineer
+37,Bachelor's,mongodb nodejs sql html,software engineering entrepreneurship web development problem solving,Full Stack Developer
+19,Bachelor's,terraform git docker,system reliability automation,DevOps Engineer
+40,Bachelor's,opencv computer vision data augmentation,artificial intelligence photography technology,Computer Vision Engineer
+38,Bachelor's,tensorflow deep learning computer vision image processing convolutional neural networks data augmentation,artificial intelligence computer vision technology,Computer Vision Engineer
+22,Bachelor's,risk management leadership communication budgeting project planning,leadership business management,Project Manager
+36,Master's,ios swift flutter rest api android,technology user experience,Mobile Developer
+18,Bachelor's,python tableau power bi statistics data visualization business intelligence,data science analytics business,Data Analyst
+30,Bachelor's,microservices sql spring boot java,engineering system architecture problem solving technology,Backend Developer
+30,Bachelor's,flutter firebase ios rest api java,user experience design,Mobile Developer
+28,Bachelor's,natural language processing pytorch statistics,research artificial intelligence,AI Researcher
+40,Bachelor's,marketing automation branding ppc,communications business creativity social media,Digital Marketer
+21,Bachelor's,spark data warehousing sql,infrastructure analytics data engineering,Data Engineer
+29,Bachelor's,sql docker spring boot,problem solving engineering software development,Backend Developer
+20,Bachelor's,text classification transformers huggingface nltk natural language processing python,research technology language,NLP Engineer
+24,Bachelor's,responsive design convolutional neural networks javascript,web development creative coding,Frontend Developer
+19,Master's,css react ui development webpack,web development creative coding,Frontend Developer
+19,Bachelor's,scrum project planning communication documentation jira leadership,strategy team collaboration leadership business,Project Manager
+34,Bachelor's,kubernetes ansible linux monitoring docker,technology infrastructure engineering system reliability,DevOps Engineer
+19,Master's,tensorflow deep learning research computer vision natural language processing pytorch,innovation research artificial intelligence,AI Researcher
+22,Master's,python system design rest api,problem solving system architecture,Backend Developer
+29,Bachelor's,process modeling agile stakeholder management documentation,management strategy problem solving,Business Analyst
+24,Bachelor's,webpack react typescript,user experience web development technology creative coding,Frontend Developer
+30,Master's,stakeholder management budgeting risk management communication project planning jira,management team collaboration leadership,Project Manager
+38,PhD,monitoring kubernetes ci/cd shell scripting linux git,system reliability engineering,DevOps Engineer
+24,Bachelor's,huggingface pytorch nltk deep learning natural language processing python,language research,NLP Engineer
+27,Bachelor's,databases nodejs spring boot,problem solving software development technology engineering,Backend Developer
+23,Master's,rest api mobile ui react native ios android,app development technology user experience mobile technology,Mobile Developer
+40,Master's,data analysis scikit-learn pandas deep learning statistics python,artificial intelligence research,Data Scientist
+29,Bachelor's,pytorch docker python,technology automation research,Machine Learning Engineer
+31,Bachelor's,user research figma wireframing usability testing,technology design user experience,UI/UX Designer
+28,Bachelor's,python convolutional neural networks data augmentation,artificial intelligence technology photography computer vision,Computer Vision Engineer
+35,Bachelor's,pcb design rtos microcontrollers hardware programming,engineering automation electronics,Embedded Systems Engineer
+35,Bachelor's,power bi pandas data visualization,analytics finance decision making,Data Analyst
+31,PhD,figma usability testing user research design thinking prototyping,psychology technology user experience,UI/UX Designer
+39,Master's,social media storytelling marketing content planning wordpress,marketing media creativity,Content Strategist
+38,Bachelor's,html docker rest api sql javascript nodejs,software engineering problem solving technology web development,Full Stack Developer
+19,Bachelor's,mobile ui flutter swift java react native,user experience mobile technology,Mobile Developer
+18,Bachelor's,design thinking sketch user research css ui design usability testing,psychology user experience technology creativity,UI/UX Designer
+34,PhD,spark sql hadoop cloud platforms,big data analytics,Data Engineer
+18,Bachelor's,kotlin mobile ui react native swift firebase flutter,design technology user experience,Mobile Developer
+36,Bachelor's,java kotlin ios rtos,technology user experience design,Mobile Developer
+26,Bachelor's,marketing content writing analytics storytelling,media marketing,Content Strategist
+18,Master's,documentation communication budgeting agile,business team collaboration,Project Manager
+27,PhD,agile power bi sql,business problem solving management,Business Analyst
+28,Bachelor's,rest api mobile ui ios java android react native,mobile technology app development,Mobile Developer
+38,Bachelor's,cloud platforms hadoop data pipelines etl,infrastructure big data technology data engineering,Data Engineer
+31,Bachelor's,networking terraform cloud architecture kubernetes,engineering infrastructure,Cloud Engineer
+26,Master's,user research wireframing css figma prototyping ui design,psychology user experience creativity,UI/UX Designer
+21,PhD,ci/cd aws networking terraform,infrastructure cloud computing engineering,Cloud Engineer
+40,Bachelor's,vulnerability assessment linux ethical hacking,privacy technology,Cybersecurity Analyst
+40,Master's,ios c hardware programming serial communication c++,hardware iot engineering,Embedded Systems Engineer
+20,Master's,aws cloud architecture linux google cloud networking,infrastructure automation technology,Cloud Engineer
+30,Bachelor's,ppc seo marketing automation social media marketing google analytics email marketing,creativity business communications,Digital Marketer
+30,Master's,jira leadership stakeholder management,management team collaboration leadership strategy,Project Manager
+22,Bachelor's,vulnerability assessment python penetration testing,technology privacy cybersecurity digital forensics,Cybersecurity Analyst
+38,Bachelor's,mlops docker feature engineering,technology software engineering automation,Machine Learning Engineer
+30,Bachelor's,serial communication assembly microcontrollers iot,automation hardware,Embedded Systems Engineer
+23,Master's,kubernetes ci/cd cloud architecture,engineering automation infrastructure technology,Cloud Engineer
+28,Master's,social media marketing marketing automation branding,business marketing,Digital Marketer
+28,Bachelor's,deep learning bert python text classification pytorch huggingface,linguistics artificial intelligence,NLP Engineer
+18,Bachelor's,deep learning nltk pytorch text classification bert huggingface,artificial intelligence language research technology,NLP Engineer
+23,Bachelor's,c iot serial communication assembly c++,hardware iot engineering electronics,Embedded Systems Engineer
+19,PhD,docker system design microservices databases,problem solving engineering software development,Backend Developer
+39,Master's,aws docker kubernetes,technology engineering automation,DevOps Engineer
+35,Bachelor's,stakeholder management agile power bi sql excel,management analytics,Business Analyst
+25,PhD,huggingface bert python deep learning,technology artificial intelligence,NLP Engineer
+28,Bachelor's,ansible terraform shell scripting aws git monitoring,engineering technology,DevOps Engineer
+31,Bachelor's,copywriting branding data analysis seo,marketing business creativity communications,Digital Marketer
+20,Bachelor's,stakeholder management risk management agile budgeting communication,management business leadership team collaboration,Project Manager
+21,Bachelor's,serial communication c++ c,electronics hardware,Embedded Systems Engineer
+36,PhD,swift firebase kotlin mobile ui rest api,user experience mobile technology app development design,Mobile Developer
+26,Bachelor's,firebase flutter mobile ui,design app development mobile technology,Mobile Developer
+21,Master's,data warehousing sql hadoop kafka,technology analytics,Data Engineer
+33,PhD,marketing automation ppc google analytics,social media creativity marketing,Digital Marketer
+29,Master's,prototyping user research usability testing wireframing,technology creativity design psychology,UI/UX Designer
+18,Bachelor's,power bi tensorflow python mlops model deployment deep learning,technology research,Machine Learning Engineer
+27,Master's,business intelligence excel data analysis process modeling requirements gathering,business strategy problem solving analytics,Business Analyst
+25,Master's,aws kubernetes terraform,automation system reliability engineering infrastructure,DevOps Engineer
+32,Bachelor's,python network security ethical hacking vulnerability assessment,technology cybersecurity privacy problem solving,Cybersecurity Analyst
+35,Master's,embedded linux microcontrollers rtos iot c++ c,electronics engineering,Embedded Systems Engineer
+27,PhD,c rtos hardware programming assembly pcb design serial communication,iot hardware engineering electronics,Embedded Systems Engineer
+38,Master's,pytorch deep learning opencv,artificial intelligence technology,Computer Vision Engineer
+39,PhD,content marketing ppc social media marketing email marketing,communications marketing social media business,Digital Marketer
+36,PhD,nodejs python databases spring boot sql microservices,technology engineering software development,Backend Developer
+27,Bachelor's,pytorch mathematics natural language processing computer vision python paper writing,research innovation artificial intelligence,AI Researcher
+33,PhD,pcb design serial communication incident response,hardware iot automation electronics,Embedded Systems Engineer
+27,Bachelor's,machine learning statistics sql,research technology analytics artificial intelligence,Data Scientist
+27,Bachelor's,data pipelines data warehousing kafka sql spark cloud platforms,analytics data engineering technology big data,Data Engineer
+31,Bachelor's,microservices spring boot nodejs,problem solving software development system architecture,Backend Developer
+40,Master's,ci/cd linux docker git,automation technology,DevOps Engineer
+19,PhD,vue javascript responsive design react,web development technology,Frontend Developer
+30,PhD,kubernetes git monitoring linux,infrastructure technology,DevOps Engineer
+27,Bachelor's,git docker ansible kubernetes,engineering system reliability,DevOps Engineer
+39,PhD,google cloud kubernetes docker terraform,automation engineering,Cloud Engineer
+25,Bachelor's,communication stakeholder management jira project planning documentation leadership,leadership management,Project Manager
+20,PhD,java ios stakeholder management android,user experience technology mobile technology,Mobile Developer
+28,Bachelor's,penetration testing ethical hacking python network security,cybersecurity privacy digital forensics,Cybersecurity Analyst
+20,Master's,deep learning tensorflow feature engineering,automation artificial intelligence,Machine Learning Engineer
+30,PhD,email marketing numpy scikit-learn deep learning,artificial intelligence technology analytics,Data Scientist
+27,Master's,rtos microcontrollers assembly c c++,hardware iot automation engineering,Embedded Systems Engineer
+36,Master's,python siem cryptography ethical hacking,cybersecurity privacy,Cybersecurity Analyst
+23,Bachelor's,ci/cd git terraform,technology system reliability infrastructure engineering,DevOps Engineer
+18,Bachelor's,spring boot docker rest api java,technology system architecture,Backend Developer
+18,Bachelor's,content marketing social media marketing marketing automation branding,social media creativity,Digital Marketer
+27,Bachelor's,python databases nodejs sql spring boot java,system architecture technology engineering software development,Backend Developer
+22,Master's,excel sql business intelligence process modeling,analytics business,Business Analyst
+18,PhD,hardware programming pcb design embedded linux,electronics engineering automation,Embedded Systems Engineer
+34,Master's,nltk deep learning huggingface natural language processing,linguistics technology research,NLP Engineer
+30,Master's,docker html css sql nodejs git,entrepreneurship web development,Full Stack Developer
+28,Master's,adobe xd prototyping ui design,user experience psychology creativity design,UI/UX Designer
+40,Bachelor's,pytorch react webpack css javascript,user experience design web development technology,Frontend Developer
+37,Master's,kafka data pipelines data warehousing cloud platforms sql spark,data engineering analytics infrastructure technology,Data Engineer
+36,Bachelor's,business intelligence power bi pandas data visualization tableau,data science decision making finance,Data Analyst
+20,Bachelor's,process modeling excel agile data analysis sql,strategy problem solving,Business Analyst
+28,Bachelor's,webpack typescript css figma javascript,web development user experience technology creative coding,Frontend Developer
+38,PhD,hadoop spark cloud platforms data warehousing sql,big data technology data engineering,Data Engineer
+24,PhD,rest api spring boot databases python,technology engineering system architecture problem solving,Backend Developer
+25,Master's,statistics pytorch mathematics computer vision deep learning tensorflow,academia innovation artificial intelligence,AI Researcher
+18,Master's,content marketing social media marketing data analysis marketing automation copywriting,business marketing communications,Digital Marketer
+22,Bachelor's,git shell scripting kubernetes aws linux monitoring,engineering infrastructure automation,DevOps Engineer
+39,Bachelor's,prototyping design thinking user research,design user experience,UI/UX Designer
+38,PhD,communication scrum stakeholder management,strategy team collaboration business management,Project Manager
+22,Bachelor's,ci/cd terraform docker aws google cloud,infrastructure technology cloud computing,Cloud Engineer
+31,Bachelor's,serial communication c++ embedded linux mongodb,iot hardware electronics engineering,Embedded Systems Engineer
+33,Bachelor's,rtos c hardware programming c++ embedded linux assembly,electronics automation engineering,Embedded Systems Engineer
+29,Bachelor's,project planning stakeholder management scrum documentation communication agile,business strategy leadership management,Project Manager
+34,PhD,rest api databases python,problem solving system architecture technology software development,Backend Developer
+32,Master's,deep learning machine learning statistics python scikit-learn,research data science,Data Scientist
+26,PhD,email marketing social media marketing marketing automation,communications social media business,Digital Marketer
+30,Bachelor's,cryptography incident response vulnerability assessment,technology problem solving,Cybersecurity Analyst
+24,Master's,analytics copywriting content planning content writing seo,marketing writing,Content Strategist
+21,Bachelor's,mlops docker tensorflow scikit-learn machine learning pytorch,software engineering artificial intelligence research technology,Machine Learning Engineer
+28,Master's,pytorch nltk python natural language processing text classification transformers,artificial intelligence research language technology,NLP Engineer
+35,Bachelor's,kubernetes aws docker,engineering cloud computing infrastructure automation,Cloud Engineer
+34,Bachelor's,marketing automation copywriting seo ppc data analysis,marketing communications,Digital Marketer
+38,Bachelor's,css vue react responsive design,design creative coding user experience web development,Frontend Developer
+31,Bachelor's,machine learning data visualization pandas python deep learning scikit-learn,technology data science,Data Scientist
+30,PhD,javascript nodejs sql html css,problem solving technology web development,Full Stack Developer
+18,Bachelor's,android java ios kotlin mobile ui,technology design user experience app development,Mobile Developer
+29,Bachelor's,shell scripting ci/cd aws terraform docker,automation infrastructure technology,DevOps Engineer
+21,PhD,tensorflow deep learning mathematics python computer vision natural language processing,academia artificial intelligence research innovation,AI Researcher
+38,Bachelor's,natural language processing bert spacy text classification,artificial intelligence technology research language,NLP Engineer
+36,Master's,data visualization pandas machine learning statistics deep learning data analysis,artificial intelligence analytics,Data Scientist
+34,Bachelor's,ios mobile ui android,mobile technology app development technology,Mobile Developer
+29,Bachelor's,marketing social media storytelling python,writing creativity,Content Strategist
+30,Bachelor's,power bi business intelligence sql,business strategy,Business Analyst
+33,Master's,networking cloud architecture ci/cd,technology automation,Cloud Engineer
+39,Master's,analytics wordpress copywriting seo content planning content writing,creativity marketing,Content Strategist
+27,Bachelor's,wireframing usability testing prototyping css,psychology design creativity,UI/UX Designer
+28,Master's,computer vision python deep learning tensorflow,research artificial intelligence photography,Computer Vision Engineer
+36,Bachelor's,rest api nodejs docker sql spring boot,system architecture problem solving software development technology,Backend Developer
+35,Master's,data warehousing python hadoop airflow cloud platforms spark,infrastructure data engineering big data technology,Data Engineer
+34,PhD,adobe xd ui design figma design thinking usability testing,psychology technology,UI/UX Designer
+37,PhD,incident response vulnerability assessment network security python ethical hacking,technology cybersecurity,Cybersecurity Analyst
+35,Master's,documentation budgeting scrum leadership,management business team collaboration,Project Manager
+27,Master's,pandas statistics tableau sql business intelligence scikit-learn,finance business,Data Analyst
+20,Master's,huggingface deep learning python transformers,artificial intelligence research language,NLP Engineer
+26,Bachelor's,email marketing ppc copywriting marketing automation google analytics,business communications creativity,Digital Marketer
+23,Bachelor's,javascript responsive design vue css,user experience creative coding web development design,Frontend Developer
+28,Master's,pandas data analysis python statistics numpy deep learning,technology artificial intelligence analytics data science,Data Scientist
+22,Bachelor's,business intelligence pandas statistics data visualization sql power bi,finance analytics business data science,Data Analyst
+26,Bachelor's,system design figma css html responsive design,design creative coding technology,Frontend Developer
+37,Master's,pytorch object detection computer vision data augmentation,research technology computer vision artificial intelligence,Computer Vision Engineer
+18,Master's,linux aws shell scripting kubernetes,infrastructure technology system reliability,DevOps Engineer
+23,Bachelor's,documentation stakeholder management sql,business problem solving,Business Analyst
+34,PhD,javascript git html nodejs css,technology entrepreneurship problem solving,Full Stack Developer
+35,Bachelor's,data analysis social media marketing email marketing branding,creativity communications business,Digital Marketer
+19,Master's,python statistics tensorflow research,innovation academia technology artificial intelligence,AI Researcher
+20,Bachelor's,bert spacy nltk,technology linguistics research artificial intelligence,NLP Engineer
+33,Bachelor's,stakeholder management communication risk management agile jira scrum,business strategy leadership,Project Manager
+29,Master's,scikit-learn mlops docker feature engineering machine learning pytorch,technology automation artificial intelligence,Machine Learning Engineer
+22,Bachelor's,docker git react,software engineering technology,Full Stack Developer
+39,Bachelor's,statistics business intelligence power bi,finance analytics business,Data Analyst
+23,PhD,deep learning computer vision pytorch python mathematics research,innovation academia technology,AI Researcher
+21,Bachelor's,rtos microcontrollers assembly,engineering iot hardware,Embedded Systems Engineer
+23,Master's,stakeholder management agile project planning risk management leadership communication,team collaboration leadership strategy management,Project Manager
+31,Bachelor's,communication project planning jira python risk management scrum,leadership management,Project Manager
+39,Bachelor's,pytorch spacy nltk huggingface python,language artificial intelligence research,NLP Engineer
+27,Bachelor's,project planning documentation scrum leadership stakeholder management,leadership management business team collaboration,Project Manager
