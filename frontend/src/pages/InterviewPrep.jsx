@@ -1,11 +1,18 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { startInterview, submitAnswer, completeInterview, getInterviewReportPDF, interviewTTS } from '../services/api';
 
+const VOICES = [
+  { id: 'pNInz6obpgDQGcFmaJgB', name: 'Adam' },
+  { id: 'ErXwobaYiN019PkySvjV', name: 'Antoni' },
+  { id: 'EXAVITQu4vr4xnSDxMaL', name: 'Bella' },
+];
+
 const InterviewPrep = () => {
-  const [step, setStep] = useState('setup'); // setup, interview, results
-  const [domain, setDomain] = useState('Software');
+  const [step, setStep] = useState('setup');
+  const [role, setRole] = useState('Frontend Developer');
   const [difficulty, setDifficulty] = useState('Intermediate');
   const [mode, setMode] = useState('text'); // text or voice
+  const [selectedVoice, setSelectedVoice] = useState('pNInz6obpgDQGcFmaJgB'); // default: Adam
   const [isVoiceActive, setIsVoiceActive] = useState(false);
 
   // Interview state
@@ -60,12 +67,11 @@ const InterviewPrep = () => {
   const playTTS = async (text) => {
     try {
       console.log('[TTS] Requesting audio for text:', text.substring(0, 80) + '...');
-      const audioBlob = await interviewTTS(text);
+      const audioBlob = await interviewTTS(text, selectedVoice);
       console.log('[TTS] Received blob:', audioBlob?.type, audioBlob?.size, 'bytes');
 
       if (!audioBlob || audioBlob.size === 0) {
-        console.error('[TTS] Empty audio blob received');
-        return;
+        throw new Error('Empty audio blob received');
       }
 
       const audioUrl = URL.createObjectURL(audioBlob);
@@ -79,7 +85,21 @@ const InterviewPrep = () => {
         }
       }
     } catch (err) {
-      console.error('[TTS] API call failed:', err);
+      console.error('[TTS] API call failed. Falling back to native browser TTS:', err);
+      // Fallback to native browser TTS
+      if ('speechSynthesis' in window) {
+        const cleanText = text.replace(/[*#]/g, '');
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        
+        // Try to prefer a natural-sounding English voice if available
+        const voices = window.speechSynthesis.getVoices();
+        const preferredVoice = voices.find(v => v.lang.startsWith('en-') && (v.name.includes('Google') || v.name.includes('Natural')));
+        if (preferredVoice) {
+          utterance.voice = preferredVoice;
+        }
+        
+        window.speechSynthesis.speak(utterance);
+      }
     }
   };
 
@@ -106,7 +126,7 @@ const InterviewPrep = () => {
     setError(null);
 
     try {
-      const data = await startInterview(domain, difficulty, mode);
+      const data = await startInterview(role, difficulty, mode);
       setSessionId(data.session_id);
       setQuestions(data.questions);
       setCurrentQuestionIndex(0);
@@ -246,18 +266,24 @@ const InterviewPrep = () => {
           <div className="flex-1 flex flex-col justify-center space-y-8 animate-fade-in">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="text-xs font-bold text-white/50 uppercase tracking-tighter ml-1">Select Domain</label>
-                <select 
-                  value={domain}
-                  onChange={(e) => setDomain(e.target.value)}
+                <label className="text-xs font-bold text-white/50 uppercase tracking-tighter ml-1">Select Role</label>
+                <select
+                  value={role}
+                  onChange={(e) => setRole(e.target.value)}
                   className="w-full bg-white/5 border border-white/20 text-white rounded-xl p-4 focus:outline-none focus:border-[#D4AF37]/50 appearance-none cursor-pointer"
                 >
-                  <option className="bg-black text-white">Software</option>
-                  <option className="bg-black text-white">Marketing</option>
-                  <option className="bg-black text-white">Finance</option>
-                  <option className="bg-black text-white">Design</option>
-                  <option className="bg-black text-white">Data Science</option>
-                  <option className="bg-black text-white">Product Management</option>
+                  <option className="bg-black text-white">Frontend Developer</option>
+                  <option className="bg-black text-white">Backend Developer</option>
+                  <option className="bg-black text-white">Full Stack Developer</option>
+                  <option className="bg-black text-white">Data Analyst</option>
+                  <option className="bg-black text-white">Data Scientist</option>
+                  <option className="bg-black text-white">Machine Learning Engineer</option>
+                  <option className="bg-black text-white">DevOps Engineer</option>
+                  <option className="bg-black text-white">Cloud Engineer</option>
+                  <option className="bg-black text-white">Mobile Developer</option>
+                  <option className="bg-black text-white">Cybersecurity Analyst</option>
+                  <option className="bg-black text-white">QA Engineer</option>
+                  <option className="bg-black text-white">System Design Architect</option>
                 </select>
               </div>
               <div className="space-y-2">
@@ -300,9 +326,23 @@ const InterviewPrep = () => {
               </div>
             </div>
             {mode === 'voice' && (
-              <p className="text-center text-white/40 text-xs">
-                AI questions will be spoken aloud. Click the mic button to record your answers.
-              </p>
+              <div className="flex flex-col items-center gap-3 animate-fade-in">
+                <div className="flex items-center gap-3">
+                  <label className="text-xs font-bold text-white/50 uppercase tracking-tighter">🎙️ Voice</label>
+                  <select
+                    value={selectedVoice}
+                    onChange={(e) => setSelectedVoice(e.target.value)}
+                    className="bg-white/5 border border-white/20 text-white rounded-xl px-4 py-2 text-sm focus:outline-none focus:border-[#D4AF37]/50 appearance-none cursor-pointer"
+                  >
+                    {VOICES.map(v => (
+                      <option key={v.id} value={v.id} className="bg-black text-white">{v.name}</option>
+                    ))}
+                  </select>
+                </div>
+                <p className="text-center text-white/40 text-xs">
+                  AI questions will be spoken aloud. Click the mic button to record your answers.
+                </p>
+              </div>
             )}
 
             <div className="flex justify-center pt-4">

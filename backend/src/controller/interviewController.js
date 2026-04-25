@@ -216,13 +216,13 @@ export const getReportPDF = async (req, res) => {
  */
 export const interviewTTS = async (req, res) => {
   try {
-    const { text } = req.body;
+    const { text, voice_id } = req.body;
 
     if (!text) {
       return res.status(400).json({ error: "Text is required" });
     }
 
-    const audioBuffer = await textToSpeech(text);
+    const audioBuffer = await textToSpeech(text, voice_id);
 
     res.setHeader("Content-Type", "audio/mpeg");
     res.setHeader("Content-Length", audioBuffer.length);

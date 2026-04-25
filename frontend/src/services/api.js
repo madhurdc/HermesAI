@@ -88,10 +88,10 @@ export async function getInterviewReportPDF(sessionId) {
   return apiRequest(`/interview/report/${sessionId}/pdf`);
 }
 
-export async function interviewTTS(text) {
+export async function interviewTTS(text, voiceId) {
   return apiRequest("/interview/tts", {
     method: "POST",
-    body: JSON.stringify({ text }),
+    body: JSON.stringify({ text, voice_id: voiceId }),
   });
 }
 

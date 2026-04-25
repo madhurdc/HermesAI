@@ -46,17 +46,28 @@ async function generate(prompt, isJson = false) {
  * Generate 10 interview questions based on domain and difficulty.
  */
 export async function generateInterviewQuestions(domain, difficulty) {
-  const prompt = `You are an expert interviewer. Generate exactly 10 interview questions for a ${difficulty}-level candidate in the ${domain} domain.
+  const role = domain; // 'domain' field is reused for role for backward compat
+  const sessionSeed = Math.floor(Math.random() * 100000); // inject entropy for variation
+
+  const prompt = `You are a senior hiring manager conducting a real-life technical interview for the role of ${role} at a professional tech company. The candidate is applying for a ${difficulty}-level position.
+
+Your task: Generate exactly 10 unique, realistic, role-specific interview questions that a real interviewer would ask for this exact role.
+
+Role: ${role}
+Difficulty: ${difficulty}
+Session ID (for variation): ${sessionSeed}
 
 Rules:
-- Mix technical and behavioral questions appropriate for the ${difficulty} level.
-- Questions should progressively increase in complexity.
-- IMPORTANT: Make EVERY question conversational, as if spoken aloud by a real human interviewer. Use NEUTRAL filler phrases ("Okay, moving on", "Alright, let's pivot to", "Now, tell me about"). DO NOT include any encouraging, discouraging, or judgmental remarks about their previous answer. Maintain a professional, neutral tone.
-- IMPORTANT: Make the first question start with a natural personalized greeting ("Hello there! I'm your interviewer today. Let's start with...").
-- Return ONLY a valid JSON array of exactly 10 string questions, no markdown, no explanation.
-
-Example output format:
-["Hello there! I'm your interviewer today... First question...", "Alright, let's move on to...", "Great. Now typically in a real environment we face... how would you..."]`;
+- ALL questions MUST be directly relevant to the ${role} role. Each question should reflect real-world tasks, tools, skills, and scenarios specific to a ${role}.
+  - For Frontend Developer: Ask about React, CSS, browser performance, accessibility, etc.
+  - For Data Scientist: Ask about ML models, statistics, Python, experiment design, etc.
+  - For DevOps Engineer: Ask about CI/CD pipelines, Docker, Kubernetes, monitoring, etc.
+  - Adapt similarly for any other role.
+- Mix technical depth questions (e.g., explain a concept, debug a scenario, design a system) with behavioral questions (e.g., describe a challenge, how you collaborated, etc.) appropriate for ${difficulty} level.
+- Questions must vary from the pattern and never repeat the same concepts across this session.
+- EVERY question must be fully conversational, as if spoken aloud by a senior interviewer. Use NEUTRAL transition phrases ("Alright, moving on", "Now, let's talk about", "Next question"). DO NOT praise or criticize any prior answer.
+- The very first question MUST include a natural professional greeting: "Hello! I'll be your interviewer today for the ${role} position. Let's get started..."
+- Return ONLY a valid JSON array of exactly 10 string questions. No markdown. No explanation.`;
 
   const text = await generate(prompt, true);
 
